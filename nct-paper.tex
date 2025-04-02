@@ -29,26 +29,28 @@
 \title{Non-Relativistic Anisotropic Magnetoresistance}
 
 \author{P. Ritzinger}
-\affiliation{Institute of Physics, ASCR, $v.~v.~i.$, 
-	Cukrovarnick\'a 10, CZ-16253 Praha 6, Czech Republic}
+%\affiliation{Institute of Physics, ASCR, $v.~v.~i.$, 
+%	Cukrovarnick\'a 10, CZ-16253 Praha 6, Czech Republic}
 
-\author{few others}
-%\affiliation{possibly at other research institutions too}
+\author{O. Sedl\'a\v cek}
+\author{J. \v Zelezn\'y}
 
 \author{K. V\'yborn\'y}
 \affiliation{Institute of Physics, ASCR, $v.~v.~i.$, 
 Cukrovarnick\'a 10, CZ-16253 Praha 6, Czech Republic}
 
 
-\date{Mar17, 2025}
+\date{Apr02, 2025}
 
 \begin{abstract}
-Anisotropic magnetoresistance (AMR) is usually attributed to interplay
-of magnetic order with spin-orbit interaction. We show that the latter
-is not necessary using two examples: one with collinear magnetic order
-(where however, the anisotropy is likely to remain fixed) and another
-example with non-collinear order where magnetic moments can be
-manipulated by magnetic field.
+Anisotropic magnetoresistance (AMR) is a manifestation of
+magnetic-order-induced symmetry lowering of conductivity tensor.
+%inequivalence of $\sigma_{xx}$ and $\sigma{yy}$.
+While the AMR in simple ferromagnets is usually considered to be a
+relativistic effect (it relies on spin-orbit interaction), we show
+that symmetry lowering, similar in spirit, can also happed in
+non-relativistic case in systems with multiple magnetic sublattices,
+notably in both collinear and non-collinear antiferromagnets. 
 \end{abstract}
 
 %\pacs{75.47.-m}
@@ -72,12 +74,25 @@ two-fold (or 180$^\circ$-periodic) dependence on the angle $\phi$ between curren
 	\label{eq_ncollAMR}
 \end{equation}
 %
+This means that, for example if magnetisation in an otherwise
+isotropic medium ($\sigma_{xx}=\sigma_{yy}$ above magnetic ordering
+temperature) is oriented along $x$, conductivity tensor
+$\sigma=\rho^{-1}$ components develop anisotropy $\sigma_{xx}\not=\sigma_{yy}$.
+
 In transition metals, this
 %This two-fold
 effect is attributed to the scattering of delocalized s-electrons into
 localized d-states at magnetic impurities through spin-orbit coupling
-(SOC)~\cite{McGuire:1975}. In this work, we are going to explain how
-AMR can be realized in the absence of SOC either {\color{red}'by itself'} or due to non-collinear magnetic order, rendering it a non-relativistic effect.
+(SOC)~\cite{McGuire:1975}. In this work, we are going to explain how the
+symmetry of $\sigma$ can be lowered even in the absence of SOC if the
+magnetic order comprises multiple magnetic sublattices (MSLs). While this
+effect can also occur in collinear magnets, we focus on non-collinear
+antiferromagnets (AFMs) where application of external magnetic field
+can trigger the effect.
+
+
+
+%AMR can be realized in the absence of SOC either {\color{red}'by itself'} or due to non-collinear magnetic order, rendering it a non-relativistic effect.
 
 \subsection{Overview on Anisotropic Magnetoresistance}
 
@@ -127,7 +142,11 @@ In both cases, we will start by considering non-collinear magnetic order on a ka
 This paper is organized as follows: In Sec.~\ref{sec_modelling}, we
 will introduce the model. In Sec.~\ref{sec_intrinsic}, we will discuss
 intrinsic AMR (both for collinear MnN and for non-collinear AFMs),
-followed by the discussion of extrinsic AMR in non-collinear AFMs (Sec.~\ref{sec_extrinsic}). {\color{red} What about ab initio}
+followed by the discussion of extrinsic AMR in non-collinear AFMs
+(Sec.~\ref{sec_extrinsic}). Details of ab initio calculations are
+given in the appendix.
+
+%{\color{red} What about ab initio}
 
 %{\color{red} Potential weak point to only feature the real materials in intrinsic AMR}
 
@@ -218,6 +237,7 @@ contribution (or anisotropic plasma frequencies $\omega^p$). We can simplify Eq.
 %
 \begin{equation}
 	\sigma_{ii} \propto \int_ {FS} \sum_n   dk_F  v^2_{n,i}(\vec{k_F})
+        \propto (\omega_{ii}^p)^2
 	\label{eq_Boltzmann_2}
 \end{equation}
 %
@@ -250,12 +270,15 @@ the direction of the ferromagnetic planes (e.g. $xy$-planes),
 anisotropy arises (in that case, $\sigma_{zz}$ is different from
 $\sigma_{xx}=\sigma_{yy}$). This effect in itself is non-relativistic in nature.
 Calculations based on density functional theory (DFT as 
-detailed in Appendix A), show that
+detailed in Appendix A, $a=b=c$), show that
 $\hbar\omega^p_{xx}=5.87$~eV and $\hbar\omega^p_{zz}=5.23$~eV so that,
 assuming isotropic scattering, $\sigma_{xx}/\sigma_{zz}-1\approx 26$~\%
+according to~(\ref{eq_Boltzmann_2}).
 
-Magnetic order leads to distortion of lattice but this effect has only
-minor influence on such transport anisotropy...
+Magnetic order leads to a distortion of lattice but this effect has only
+minor influence on such transport anisotropy --- for example,
+$a/c=0.4256/0.4189$~nm changes $\hbar\omega^p_{xx}$ to $5.88$~eV and
+$\hbar\omega^p_{zz}$ to 5.10~eV.
 
 
 \subsection{Kagome lattice}
@@ -272,6 +295,23 @@ Turning to non-collinear systems, we
 first start by considering magnetic configurations, which are not changing the principle properties of the system, meaning that all moments will remain in the $xy$-plane and the moments cancel out (hence the system is perfectly compensated). Starting from the original configuration of moments as shown in Fig.~\ref{fig:kagome11}, there are two possibilities: First, by permutations, which one is shown in Fig.~\ref{fig:totalkagomephase1a}, and second, by rotating all moments at the simultaneously. In both cases, regardless the permutation or angle of rotation, intrinsic AMR cannot be found and furthermore the results are equivalent (as well in band structure and Fermi surface) to the results shown in Fig.~\ref{fig:totalkagomephase1a}. This is, as mentioned prior, because due to the lack of SOC, spin and lattice are decoupled~\cite{Gonzalez-Hernandez:2024}. Nevertheless, as shown in Fig.~\ref{fig:totalkagomephase1a} (d) and (f) {\color{red} to be attached}, the spintexture changes depending on the permutation. 
 
 In the next step, we are individually rotating the magnetic moments within the $xy$-plane as shown in Figs.~\ref{fig:totalkagomephase350-60-70} and \ref{fig:totalkagomephase365l} {\color{red} (Figs to be replaced)}. In both cases, the unequal rotation of the moments causes a small in-plane magnetization to emerge.
+Consequently, there arises an anisotropy manifest in the Fermi suface
+shown in Fig.~\ref{fig-04} driven by the broken rotation symmetry (the MSLs
+transform no longer one into another).
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth,angle=-90]{img/4a.pdf}
+	\caption{Asymmetric Fermi surface (orange = circle for reference) when
+          green and blue mmoms in Fig.~\ref{fig:totalkagomephase1a}
+          are slightly rotated by $\varphi$ (so that red is now the inequivalent MSL).
+          Note that by simultaneous rotation of all moments the FS
+          does not change, i.e. while the total magnetisation is
+          relevant (it can serve as a measure of symmetry breaking), its
+          direction is not.
+        }
+        \label{fig-04}
+\end{figure}
 
 {\color{red} \begin{itemize}
 	\item Describe the rotation of red and blue moment. we are passing some special cases: ferrimagnetism (60), permutation (120), ferromagnetism (240). 
@@ -387,9 +427,7 @@ Summary and conclusion
 
 \section*{Acknowledgments}
 
-Our work benefited from discussions with {\color{red}J. \v{Z}elezn\'y (and Jakub
-should decide if he wants to be on the author list or not :)} and
-M. Trushin \ldots
+Our work benefited from discussions with folks interested in AMR...
 we express our gratitude to them as well as to funding sources from GA\v{C}R (under contract 22-21974S).
  
 \begin{appendix}
@@ -446,7 +484,7 @@ lattice constants'; when SO is switched off, we get  similar anisotropy...
 
 \bibitem{Thomson:1857} W. Thomson, Proc. R. Soc. Lond. 8, 546.(1857) %(doi:10.1098/rspl.1856.0144)
 
-\bibitem{Ritzinger:2023} P. Ritzinger, K. V\'yborn\'y, R. Soc. Open Sci., 10, 230564 (2023). %DOI: 10.1098/rsos.230564
+\bibitem{Ritzinger:2023} Philipp Ritzinger, Karel V\'yborn\'y, R. Soc. Open Sci., 10, 230564 (2023). %DOI: 10.1098/rsos.230564
 
 \bibitem{Alagoz:2015} H. S. Alagoz, J. Desomberg, M. Taheri, F. S. Razavi, K. H. Chow, and J. Jung, Appl. Phys. Lett. 106, 082407 (2015)
 
