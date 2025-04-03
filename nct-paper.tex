@@ -116,7 +116,9 @@ Experimental results of AMR and its transversal counterpart (often referred to a
 {\color{red} Its a kagome lattice (ref to Edelstein and Hyami?) ... }
 
 
-The comparably lesser known CrSe exhibits a NiAs-type structure~\cite{Corliss:1961}. Its non-coplanar antiferromagnetic order prevails below its N\'eel temperature of $T_N = 280K$~\cite{Tajima:2024, Polesya:2010}. It shows a double-layer triangular structure, where within each layer, the moments in the $xy$-plane are cancelling each other out, while there is finite $z$-moment. The magnetic moments of the second layer are exactly the opposite of the first layer. The CrSe compounds belong to the family of Cr$_n$X ($X$ = S, Se, Te, and Sb), which, again show very different properties based on $n$ and $X$~\cite{Tajima:2024, Polesya:2010}. However, Cr$_n$X for $n \neq 1$ and $X \neq$ Se is beyond the scope of this work. CrSe appears to be sensitive to off-stoichiometry, thickness or growth temperature, where, for instance, a semiconductor-to-metal transition was induced by varying the growth temperature~\cite{Tajima:2024}. CrSe grown on the topological insulator (Bi, Sb)$_2$Te$_3$ showed ferromagnetism as a result of proximity effects~\cite{Yang:2020}.
+The comparably lesser known CrSe exhibits a NiAs-type structure~\cite{Corliss:1961}. Its non-coplanar antiferromagnetic order prevails below its N\'eel temperature of $T_N = 280K$~\cite{Tajima:2024, Polesya:2010}. It shows a double-layer triangular structure, where within each layer, the moments in the $xy$-plane are cancelling each other out, while there is finite $z$-moment. The magnetic moments of the second layer are exactly the opposite of the first layer. The CrSe compounds belong to the family of Cr$_n$X ($X$ = S, Se, Te, and Sb), which, again show very different properties based on $n$ and $X$~\cite{Tajima:2024, Polesya:2010}. However, Cr$_n$X for $n \neq 1$ and $X \neq$ Se is beyond the scope of this work. CrSe appears to be sensitive to off-stoichiometry, thickness or growth temperature, where, for instance, a semiconductor-to-metal transition was induced by varying the growth temperature~\cite{Tajima:2024}. CrSe grown on the topological insulator (Bi, Sb)$_2$Te$_3$ showed ferromagnetism as a result of proximity effects~\cite{Yang:2020}. \\
+
+{\color{red} Look for NiO domains... perhaps T-type domains coupled to magnetostriction $\rightarrow$ experimental data on sth. similar}
 
 \subsection{Organization}
 
@@ -127,14 +129,14 @@ In both cases, we will start by considering non-collinear magnetic order on a ka
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/Kagome_11}
-	\caption{Schematic image of the kagome lattice with non-collinear magnetic order. The three magnetic moments in the magnetic unit cell are shown in red, green and blue. The net magnetic moment is zero. While the magnetic unit cell is the same as in the triangular lattice, the regular vacancy distinguishes the two. In practice, the vacancy can be filled with a non-magnetic atom.}
+	\caption{Schematic image of the kagome lattice with non-collinear magnetic order. The three magnetic moments in the magnetic unit cell are shown in red, green and blue. The net magnetic moment is zero. While the magnetic unit cell is the same as in the triangular lattice, the regular vacancy distinguishes the two. In practice, the vacancy can be filled with a non-magnetic atom. {\color{red} change color code: red, green and blue in the same position as in the other pictures } }
 	\label{fig:kagome11}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/Trigonal_11}
-	\caption{Schematic image of the triangular lattice with non-collinear magnetic order. The three magnetic moments in the magnetic unit cell are shown in red, green and blue. The net magnetic moment is zero.}
+	\caption{Schematic image of the triangular lattice with non-collinear magnetic order. The three magnetic moments in the magnetic unit cell are shown in red, green and blue. The net magnetic moment is zero. {\color{red} change color code: red, green and blue in the same position as in the other pictures }}
 	\label{fig:trigonal11}
 \end{figure}
 
@@ -205,19 +207,13 @@ For the intrinsic AMR, we will rotate the magnetic moments individually, as a ro
 
 \subsection{An Expanded Phenomenological Model}
 
-The angle-dependent form of AMR can be expressed phenomenologically in terms of power expansion of the magnetization direction~\cite{Doring:1938,Limmer:2008,DeRanieri:2008} and allows to describe even more complex crystalline AMR signals~\cite{Ritzinger:2021, Gonzalez-Betancourt:2024, NamHai:2012}. However, these models rely on the existence of a SSA as the magnetization or N\'eel vector. In non-collinear systems such SSA does not exist - even in case of weak ferromagnetism induced by an applied magnetic field, it would be likely an oversimplification to ignore the effects of the sublattices ({\color{red} find paper about weak ferromagnetism in Mn3Sn doesnt play a role ... sth from Jakub I think}). "Local" treatment of effects is not new: For instance, basic AMR models in FMs rely on seperate contributions for spin up and spin down electrons (two-current models)~\cite{Ritzinger:2023}, or the Edelstein effect in non-collinear Mn$_3$Sn can be calculated for each sublattice~\cite{Gonzalez-Hernandez:2024}. Such local approach can be applied to AMR by considering the contributions of each magnetic sublattice (MSL) individually in the phenomenological model, which yields:
+The angle-dependent form of AMR can be expressed phenomenologically in terms of power expansion of the magnetization direction~\cite{Doring:1938,Limmer:2008,DeRanieri:2008} and allows to describe even more complex crystalline AMR signals~\cite{Ritzinger:2021, Gonzalez-Betancourt:2024, NamHai:2012}. However, these models rely on the existence of a SSA as the magnetization or N\'eel vector. In non-collinear systems such SSA does not exist - even in case of weak ferromagnetism induced by an applied magnetic field, it would be likely an oversimplification to ignore the effects of the sublattices ({\color{red} find paper about weak ferromagnetism in Mn3Sn has little influence ... sth from Jakub I think}). "Local" treatment of effects is not new: For instance, basic AMR models in FMs rely on seperate contributions for spin up and spin down electrons (two-current models)~\cite{Ritzinger:2023}, or the Edelstein effect in non-collinear Mn$_3$Sn can be calculated for each sublattice~\cite{Gonzalez-Hernandez:2024}. Such local approach can be applied to AMR by considering the contributions of each magnetic sublattice (MSL) individually in the phenomenological model, which yields:
 
 \begin{equation}
 	\rho_{yy} = \rho_0 + \sum_{m = 1,2,3} \sum_{n = 2, 4, 6, ...} c_{m,n} \cos(n \alpha_m)
 	\label{eq_sublattice_AMR}
 \end{equation}
 where $m$ is the index of the MSL, $n$ is the order of the spherical harmonic, $c_{m,n}$ is the index of the $n$-th harmonic of the $m$-th MSL, and $\alpha_m$ is the angle of the magnetization direction of the $m$-th magnetic moment (assuming an in-plane rotation). The coefficients $c_{m,n}$ can be obtained by fitting where for multiple MSLs measurements for different values of magnetic field $B$ are necessary. The position of the magnetic moments $\alpha_m$ can be obtained from SW models. While this is not going to be a main focus of this work, Eq.~\ref{eq_sublattice_AMR} together with an adequate SW model could help to distinguish the MCA from the AMR.
-
-
-
-
-
-
 
 
 
@@ -286,41 +282,44 @@ $\hbar\omega^p_{zz}$ to 5.10~eV.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase1a}
-	\caption{Results for the kagome lattice, where the moments are permuted as compared to Fig.~\ref{fig:kagome11} (left lower panel). Left upper panel: The Bandstructure is spin-split. Right upper panel: The Fermi surface {\color{red} (Ef, band?)} is represented by the blue dots. The orange circle is shown for illustration. Since the FS and the circle overlap, this system has an isotropic FS and does not show intrinsic AMR. Right lower panel: Difference of the FS points the circle. The FS is thus not perfectly spherical, but shows some six-fold modulation, which still does not allow for intrinsic AMR since in a hexagonal system, this corresponds to a symmetry operation.}
+	\caption{Results for the kagome lattice, where the moments are permuted as compared to Fig.~\ref{fig:kagome11} (left lower panel). Left upper panel: The Bandstructure is spin-split. Right upper panel: The Fermi surface is represented by the blue dots. The orange circle is shown for illustration. Since the FS and the circle overlap, this system has an isotropic FS and does not show intrinsic AMR. Right lower panel: Difference of the FS points the circle. The FS is thus not perfectly spherical, but shows some six-fold modulation, which still does not allow for intrinsic AMR since in a hexagonal system, this corresponds to a symmetry operation. {\color{red} Old picture, to be replaced. To be added: two more panels with spintexture of both permutation of the compensated state} }
 	\label{fig:totalkagomephase1a}
 \end{figure}
 
 
 Turning to non-collinear systems, we
-first start by considering magnetic configurations, which are not changing the principle properties of the system, meaning that all moments will remain in the $xy$-plane and the moments cancel out (hence the system is perfectly compensated). Starting from the original configuration of moments as shown in Fig.~\ref{fig:kagome11}, there are two possibilities: First, by permutations, which one is shown in Fig.~\ref{fig:totalkagomephase1a}, and second, by rotating all moments at the simultaneously. In both cases, regardless the permutation or angle of rotation, intrinsic AMR cannot be found and furthermore the results are equivalent (as well in band structure and Fermi surface) to the results shown in Fig.~\ref{fig:totalkagomephase1a}. This is, as mentioned prior, because due to the lack of SOC, spin and lattice are decoupled~\cite{Gonzalez-Hernandez:2024}. Nevertheless, as shown in Fig.~\ref{fig:totalkagomephase1a} (d) and (f) {\color{red} to be attached}, the spintexture changes depending on the permutation. 
+first start by considering magnetic configurations, which are not changing the principle properties of the system, meaning that all moments will remain in the $xy$-plane and the moments cancel out (hence the system is perfectly compensated). Starting from the original configuration of moments as shown in Fig.~\ref{fig:kagome11}, there are two possibilities: First, by permutations, which one is shown in Fig.~\ref{fig:totalkagomephase1a}, and second, by rotating all moments at the simultaneously. In both cases, regardless the permutation or angle of rotation, intrinsic AMR cannot be found and furthermore the results are equivalent (as well in band structure and Fermi surface) to the results shown in Fig.~\ref{fig:totalkagomephase1a}. This is, as mentioned prior, because due to the lack of SOC, spin and lattice are decoupled~\cite{Gonzalez-Hernandez:2024}. Nevertheless, as shown in Fig.~\ref{fig:totalkagomephase1a} (d) and (f) {\color{red} to be added}, the spintexture changes depending on the permutation. 
 
 In the next step, we are individually rotating the magnetic moments within the $xy$-plane as shown in Figs.~\ref{fig:totalkagomephase350-60-70} and \ref{fig:totalkagomephase365l} {\color{red} (Figs to be replaced)}. In both cases, the unequal rotation of the moments causes a small in-plane magnetization to emerge.
 Consequently, there arises an anisotropy manifest in the Fermi suface
-shown in Fig.~\ref{fig-04} driven by the broken rotation symmetry (the MSLs
+shown in Fig.~\ref{fig:asymmFS} driven by the broken rotation symmetry (the MSLs
 transform no longer one into another).
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth,angle=-90]{img/4a.pdf}
-	\caption{Asymmetric Fermi surface (orange = circle for reference) when
-          green and blue mmoms in Fig.~\ref{fig:totalkagomephase1a}
-          are slightly rotated by $\varphi$ (so that red is now the inequivalent MSL).
-          Note that by simultaneous rotation of all moments the FS
-          does not change, i.e. while the total magnetisation is
-          relevant (it can serve as a measure of symmetry breaking), its
-          direction is not.
-        }
-        \label{fig-04}
+	\includegraphics[width=0.9\linewidth]{img/fig4}
+	\caption{Left panel: Asymmetric Fermi surface (orange = circle for reference) when green and blue mmoms in Fig.~\ref{fig:totalkagomephase1a} are slightly rotated) (so that red is now the inequivalent MSL) leading to a small magnetization that can serve as a measure of symmetry breaking. Right panel: AMR vs. Fermi energy in the same system. Despite being a qualitative system, limited quantiative statements are possible. The change of AMR can be mainly attributed to the change of the size of the Fermi circle.
+      }
+   \label{fig:asymmFS}
 \end{figure}
 
 {\color{red} \begin{itemize}
 	\item Describe the rotation of red and blue moment. we are passing some special cases: ferrimagnetism (60), permutation (120), ferromagnetism (240). 
 	\item Name, that there is always AMR, except compensated or FM state
-	\item Now, change the moment that is "fix" and rotate again: The FS will be rotated (include example from 36 deg) $\rightarrow$ propose an experiment (since the "fixing the other moment" refers to changing the direction of applied magnetic field)
+	\item Now, change the moment that is "fix" and rotate again: The FS will be rotated (include example from 36 deg) $\rightarrow$ propose an experiment (since the "fixing the other moment" refers to changing the direction of applied magnetic field). See Fig.~\ref{fig:fs-rotation}
 	\item Curiosity: In the ferrimagnetic order, despite being collinear, the FS is still two-fold and intrinsic AMR is produced. Furthermore, the FS can not only be rotated by "fixing" the other moment, but also by permutation
+	\item The existing anisotropy of conductivity in the (collinear!) ferrimagnetic state indicates that for the Kagome lattice, only the $120^\circ$ rotational symmetry needs to broken. Distinction: 1. Triangular lattice does not show any results, but has a higher symmetry per se. 2. The FM state has effectively only 1 MSL and rotating all moments at once doesnt change anything
 \end{itemize} }
 
-{\color{red} Hold on: What IF the in-plane magnetization is actually the cause of the AMR? See AMR in FM: as in Eq.~\ref{eq_ncollAMR} where $\alpha$ is the angle of rotation of magnetization. What if here: the small emerging magnetization is indeed the order parameter and the ncoll order is replacing simply the SOC?}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{img/FS-rotation}
+	\caption{Rotation of the warped Fermi surface: In the blue case, the "magnetic field" was applied in $-\hat{y}$-direction, manipulating red and blue mmom. In the orange case, the field was applied along -blue mmom, manipulting red and green moment. The two FS are rotated by 60$^\circ$, and are not overlapping, resulting in a differing AMR}
+	\label{fig:fs-rotation}
+\end{figure}
+
+
+%{\color{red} Hold on: What IF the in-plane magnetization is actually the cause of the AMR? See AMR in FM: as in Eq.~\ref{eq_ncollAMR} where $\alpha$ is the angle of rotation of magnetization. What if here: the small emerging magnetization is indeed the order parameter and the ncoll order is replacing simply the SOC?}
 
 \subsection{Triangular lattice}
 In case of the triangular lattice, the same operations were applied as for the kagome lattice. In both the compensated states (simultanous rotation, and the permutation of moments) and the non-compensated states show no anisotropic Fermi surface and hence, intrinsic AMR could not be found in this system. We attribute this to a higher symmetry the system shows {\color{red} which one? And what more?}
@@ -396,13 +395,11 @@ where $\psi_k$ is the wave function at $\vec{k}$. The scattering rate $\Gamma$ a
 
 where in Eq.~\ref{eq_FermiGoldenRule_2} we ignored $\cos \theta_{vv'}$ and the prefactors, and the delta distribution was evaluated. The integration over $k_z$ does only contribute in a prefactor the system we are looking at is two dimensional. The resulting integral in Eq.~\ref{eq_FermiGoldenRule_2} is a one dimensional integral over the Fermi circle. As can be seen the scattering rate for a magnetic impurity in direction $i$ (Eq.~\ref{eq_FermiGoldenRule_2}) and the $i$-th component of the spin texture are looking very similar, except that the integral over the Fermi surface adds some level of complexity to it. Despite these small differences, it allows us to to explain a part of the results we find in Tab.~\ref{T_extrinsic}:
 
-The spintexture of the triangular FM case (Fig.~\ref{fig:combinedspintexture} right panel) points exclusively in the $+\hat{y}$-direction, thus $s_x = 0$. In this case, introducing a X-impurity will lead to a zero scattering rate or infinite conductivity, whereas a Y-impurity leads to a finite isotropic conductivity. The same is the case for the triangular lattice and the square FM lattice: The spin texture of the triangular lattice pointing along $+\hat{z}$ leading to a suppressed scattering for an X-impurity and a isotropic conductivity for a Z-conductivity. The square FM lattice has a spin texture pointing along $\hat{y}$, leading to divergencies for impurities along $\hat{x}$ and $\hat{z}$.
+The spintexture of the square FM case (Fig.~\ref{fig:combinedspintexture} right panel) points exclusively in the $+\hat{y}$-direction, thus $s_x = 0$. In this case, introducing a $\hat{x}$-impurity will lead to a zero scattering rate or infinite conductivity, whereas a $\hat{y}$-impurity leads to a finite isotropic conductivity. The same is the case for the triangular lattice: The spin texture of the triangular lattice pointing along $+\hat{z}$ leading to a suppressed scattering for both $\hat{x}$- and $\hat{y}$-impurities.
 
-It is now interesting to compare the triangular FM and the square FM lattice: Both have ferromagnetic moments and a momentum space spin texture pointing in $+\hat{y}$-direction. In both cases, introducing an Y-impurity leads to an isotropic conductivity, hence no AMR. The difference is that the magnetic moments of the square FM point along $+\hat{y}$, and are thus parallel to the momentum space spin texture, while the magnetic moment of the triangular FM point along $+\hat{z}$ and are thus perpendicular to the momentum space spin texture. Using a Y-impurity projected to sublattice 1 leads to a non-zero AMR (anisotropic conductivity) in case of the triangular FM, but not in case of the square FM, where the conductivity remains isotropic. This can be interpreted in the following way: The projected Y-impurity is only acting on the magnetic moment (pointing along $+\hat{z}$) at sublattice 1 combining impurity and magnetic moment to give the system some degree of collinearity and thus causing AMR. In case of the square FM this is not possible since impurity and magnetic moment are pointing in the same direction. Choosing an impurity poiting elsewhere is also not possible since the momentum spin texture is also pointing along $\hat{y}$, suppressing the contributions from magnetic impurities pointing in other directions.
+%In case of the non-collinear triangular lattice, the moment space spin texture (not shown, similar to Fig.~\ref{fig:combinedspintexture} right panel) points to the $+\hat{z}$ direction. Yet still, a Z-impurity leads to an isotropic conductivity. The reason for this could be that while the impurity is applied in the $\hat{z}$-direction, the conductivity is measured in the xy-plane. There could be a non-zero AMR emerging if we look at the out-of-plane AMR $\sigma_{zz}/\sigma_{xx}$ instead. Since we are just looking at a two dimensional model, this would require changes to our model, however. 
 
-In case of the non-collinear triangular lattice, the moment space spin texture (not shown, similar to Fig.~\ref{fig:combinedspintexture} right panel) points to the $+\hat{z}$ direction. Yet still, a Z-impurity leads to an isotropic conductivity. The reason for this could be that while the impurity is applied in the $\hat{z}$-direction, the conductivity is measured in the xy-plane. There could be a non-zero AMR emerging if we look at the out-of-plane AMR $\sigma_{zz}/\sigma_{xx}$ instead. Since we are just looking at a two dimensional model, this would require changes to our model, however. 
-
-Now, as a last part of this section, we can look at the crystalline AMR, which refers to the anisotropy of conductivity created by the crystalline symmetry. In our case, this can be defined as:
+Now, as a last part of this section, we can look at the crystalline AMR, which refers to the anisotropy of conductivity created by the crystalline symmetry. In our case, this can be defined as {\color{red} (redo the calculations to doublecheck)}:
 
 \begin{equation}
 	AMR^{cry}_{VW} = \frac{\sigma_{WW} (\hat{M} = \hat{W})}{\sigma_{VV} (\hat{M} = \hat{V})}
@@ -450,14 +447,14 @@ lattice constants'; when SO is switched off, we get  similar anisotropy...
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase3_0}
-	\caption{Collinear ferrimagnetic position. Yes.}
+	\caption{Collinear ferrimagnetic position. Elipsoid FS. AMR exists}
 	\label{fig:totalkagomephase30}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase3_50-60-70}
-	\caption{the famous result}
+	\caption{Red and blue moment manipulated leading to some non-compensated state. Warped hexagon is sufficiently anisotropic}
 	\label{fig:totalkagomephase350-60-70}
 \end{figure}
 
