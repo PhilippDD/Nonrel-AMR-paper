@@ -117,7 +117,7 @@ Mn$_3$Sn has a hexagonal Ni$_3$Sn~\cite{Nakatsuji:2015} type structure. Below it
 Experimental results of AMR and its transversal counterpart (often referred to as planar Hall effect, or PHE) in Mn$_3$Sn and Mn$_3$Ge have been reported: The AMR is usually two-fold~\cite{Sharma:2023, Chen:2021,Wu:2023}, while in one study a four-fold signal was reported at $ T = 10$ K, which vanished at higher temperatrues and was attributed to tilting Weyl nodes~\cite{Wu:2023}. Temperature and field dependence were investigated briefly as well: The PHE was reported to be higher at 100 K than at 300 K~\cite{Chen:2021} and the AMR increased upon increasing applied magnetic field~\cite{Sharma:2023}. In the helical phase, no AMR was reported, where in the spinglass phase the AMR was also two-fold~\cite{Sharma:2023}. The problem about the definition is discussed in the next section. The results might appear to be less conclusive than in simpler FM or collinear AFM systems due to the rather involved non-collinear magnetic order, which will be discussed at the end of Sec.~\ref{sec_modelling} in more detail.
 
 
-{\color{red} Its a kagome lattice (ref to Edelstein and Hayami?) ... }
+%{\color{red} Its a kagome lattice (ref to Edelstein and Hayami?) ... }
 % Frustration on kagome lattice leads to interesting phenomena
 % in the realm of quantum magnetism [RMP 88, 041002] but we'll stay
 % with classical (large) moments
@@ -129,21 +129,23 @@ The comparably lesser known CrSe exhibits a NiAs-type structure~\cite{Corliss:19
 
 \subsection{Organization}
 
-In this paper we will show how AMR can be achieved by non-collinear magnetic order while neglecting SOC and thus, rendering AMR an non-relativistic effect. We are modelling the various non-collinear systems using a tight-binding model. We will realize non-relativistic AMR in two different ways: Intrinsically, thus scattering-independent, due to an anisotropic Fermi surface and extrinsically by considering magnetic impurities.  
+In this paper we will show how AMR can be achieved by non-collinear magnetic order while neglecting SOC and thus, rendering AMR an non-relativistic effect. We are modelling the various non-collinear systems using a tight-binding model. We will realize non-relativistic AMR in two different ways: Intrinsically, thus scattering-independent, due to an anisotropic Fermi surface and extrinsically by considering magnetic impurities. Our work on the intrinsic AMR can be seen as an extension of our previous work in Sec. 4.2.3 of Ref.~\cite{Ritzinger:2023}.
 
-In both cases, we will start by considering non-collinear magnetic order on a kagome lattice (see Fig.~\ref{fig:kagome11}) and a triangular lattice (see Fig.~\ref{fig:trigonal11}). Both lattices are all based on a triangular lattice. In case of the kagome lattice, regular vacancies (which in practice can be filled by non-magnetic atoms) are creating a structure consisting of triangles and hexagons. In case of the intrinsic AMR, we are concluding shortly by considering real materials whose structure we got from MAGNDATA data base: CrSe~\cite{Magndata:CrSe} and Mn$_3$Sn~\cite{Magndata:Mn3Sn}. For the extrinsic AMR, one other toymodels is introduced: A square lattice with ferromagnetic moments, where the magnetic moments point along $\hat{y}$.
+In both cases, we will start by considering non-collinear magnetic order on a kagome lattice (see Fig.~\ref{fig:kagome11}) and a triangular lattice (see Fig.~\ref{fig:trigonal11}). Both lattices are all based on a triangular lattice. In case of the kagome lattice, regular vacancies (which in practice can be filled by non-magnetic atoms) are creating a structure consisting of triangles and hexagons. The magnetic unit cell of both the kagome and the triangular lattice consist of three magnetic moments as indicated in Figs.~\ref{fig:kagome11} and \ref{fig:trigonal11}. Please note, that the type of lattice (e.g. kagome etc.) does not automatically indicate the number of MSLs as, for example shown in other works involving kagome lattice~\cite{Hayami:2020} or a honeycomb lattice~\cite{Rusnacko:2019}.
+
+In case of the intrinsic AMR, we are concluding shortly by considering real materials whose structure we got from MAGNDATA data base: CrSe~\cite{Magndata:CrSe} and Mn$_3$Sn~\cite{Magndata:Mn3Sn}. For the extrinsic AMR, one other toymodels is introduced: A square lattice with ferromagnetic moments, where the magnetic moments point along $\hat{y}$.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/Kagome_11}
-	\caption{Schematic image of the kagome lattice with non-collinear magnetic order. The three magnetic moments in the magnetic unit cell are shown in red, green and blue. The net magnetic moment is zero. While the magnetic unit cell is the same as in the triangular lattice, the regular vacancy distinguishes the two. In practice, the vacancy can be filled with a non-magnetic atom. {\color{red} change color code: red, green and blue in the same position as in the other pictures } }
+	\caption{Schematic image of the kagome lattice with non-collinear magnetic order. The three magnetic moments in the magnetic unit cell are shown in red, green and blue. The net magnetic moment is zero. While the magnetic unit cell is the same as in the triangular lattice, the regular vacancy distinguishes the two. In practice, the vacancy can be filled with a non-magnetic atom.}
 	\label{fig:kagome11}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/Trigonal_11}
-	\caption{Schematic image of the triangular lattice with non-collinear magnetic order. The three magnetic moments in the magnetic unit cell are shown in red, green and blue. The net magnetic moment is zero. {\color{red} change color code: red, green and blue in the same position as in the other pictures }}
+	\caption{Schematic image of the triangular lattice with non-collinear magnetic order. The three magnetic moments in the magnetic unit cell are shown in red, green and blue. The net magnetic moment is zero.}
 	\label{fig:trigonal11}
 \end{figure}
 
@@ -158,6 +160,20 @@ given in the appendix.
 %{\color{red} What about ab initio}
 
 %{\color{red} Potential weak point to only feature the real materials in intrinsic AMR}
+
+\subsection{{\color{red} Symmetries, p-wave magnetism}}
+{\color{red} A similar work was carried out by Tomas, Libor, Jairo named \textit{p-wave magnetism}~\cite{BirkHellenes:2023} and, at least, we have to find out how that affect the possible storyline of this paper. Some thoughts:
+
+\begin{itemize}
+	\item Significant overlap might be a problem: AMR ("spontaneous anisotropy of the resistivity") due to anisotropic Fermi surface, non-collinear materials, DFT example calculation, symmetry analysis
+	\item On the other hand: Part of the (intrinsic AMR) results were shown in Sec. 4.2.3 of the review~\cite{Ritzinger:2023} and it can be argued that this paper is its "natural successor"
+	\item The p-wave paper does NOT talk about: Rotation of the moments, extrinsic AMR; DFT with other material than ours
+	\item Perhaps focus more on the results of the extrinsic AMR as its more unique and allows us to seperate from the overs. Any fancy explanation for the extrinsic result?
+	\item I think it's still interesting to discuss why the non-compensated lattice works in the case of kagome, yet never in case of triangular
+	\item P-wave paper mentions 73 material candidates (from magndata) identified to be such a p-wave magnet. The list is available in the supplementary material (not yet public??, at least I couldn't find it. It'd be interesting to compare to the materials we show here (MnN, Mn3Sn, CrSe)
+	\item After all, the overlap doesn't need to be bad as we could also just say that we are consistent with the p-wave people and bring sth new to the table (other materials, extrinsic AMR, detail study of intrinsic and so on)
+\end{itemize}
+}
 
 \section{Modelling}
 \label{sec_modelling}
@@ -214,7 +230,7 @@ For the intrinsic AMR, we will rotate the magnetic moments individually, as a ro
 
 \subsection{An Expanded Phenomenological Model}
 
-The angle-dependent form of AMR can be expressed phenomenologically in terms of power expansion of the magnetization direction~\cite{Doring:1938,Limmer:2008,DeRanieri:2008} and allows to describe even more complex crystalline AMR signals~\cite{Ritzinger:2021, Gonzalez-Betancourt:2024, NamHai:2012}. However, these models rely on the existence of a SSA as the magnetization or N\'eel vector. In non-collinear systems such SSA does not exist - even in case of weak ferromagnetism induced by an applied magnetic field, it would be likely an oversimplification to ignore the effects of the sublattices ({\color{red} find paper about weak ferromagnetism in Mn3Sn has little influence ... sth from Jakub I think}). "Local" treatment of effects is not new: For instance, basic AMR models in FMs rely on seperate contributions for spin up and spin down electrons (two-current models)~\cite{Ritzinger:2023}, or the Edelstein effect in non-collinear Mn$_3$Sn can be calculated for each sublattice~\cite{Gonzalez-Hernandez:2024}. Such local approach can be applied to AMR by considering the contributions of each magnetic sublattice (MSL) individually in the phenomenological model, which yields:
+The angle-dependent form of AMR can be expressed phenomenologically in terms of power expansion of the magnetization direction~\cite{Doring:1938,Limmer:2008,DeRanieri:2008} and allows to describe even more complex crystalline AMR signals~\cite{Ritzinger:2021, Gonzalez-Betancourt:2024, NamHai:2012}. However, these models rely on the existence of a SSA as the magnetization or N\'eel vector. In non-collinear systems such SSA does not exist - even in case of weak ferromagnetism induced by an applied magnetic field, it would be likely an oversimplification to ignore the effects of the sublattices. "Local" treatment of effects is not new: For instance, basic AMR models in FMs rely on seperate contributions for spin up and spin down electrons (two-current models)~\cite{Ritzinger:2023}, or the Edelstein effect in non-collinear Mn$_3$Sn can be calculated for each sublattice~\cite{Gonzalez-Hernandez:2024}. Such local approach can be applied to AMR by considering the contributions of each magnetic sublattice (MSL) individually in the phenomenological model, which yields:
 
 \begin{equation}
 	\rho_{yy} = \rho_0 + \sum_{m = 1,2,3} \sum_{n = 2, 4, 6, ...} c_{m,n} \cos(n \alpha_m)
@@ -244,7 +260,7 @@ contribution (or anisotropic plasma frequencies $\omega^p$). We can simplify Eq.
 	\label{eq_Boltzmann_2}
 \end{equation}
 %
-where {\color{red}$\vec{k_F}$ is the wave vector at the Fermi surface} (Fermi
+where $\vec{k_F}$ is the wave vector at the Fermi surface (Fermi
 vector).
 % what about anisotropic Fermi surfaces !?!?  then there's no single k_F
 We made use of the facts that we only consider the
@@ -289,58 +305,39 @@ $\hbar\omega^p_{zz}$ to 5.10~eV.
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase1a}
-	\caption{Results for the kagome lattice, where the moments are permuted as compared to Fig.~\ref{fig:kagome11} (left lower panel). Left upper panel: The Bandstructure is spin-split. Right upper panel: The Fermi surface is represented by the blue dots. The orange circle is shown for illustration. Since the FS and the circle overlap, this system has an isotropic FS and does not show intrinsic AMR. Right lower panel: Difference of the FS points the circle. The FS is thus not perfectly spherical, but shows some six-fold modulation, which still does not allow for intrinsic AMR since in a hexagonal system, this corresponds to a symmetry operation. {\color{red} Old picture, to be replaced. To be added: two more panels with spintexture of both permutation of the compensated state} }
+	\caption{Results for the kagome lattice, where the moments are permuted as compared to Fig.~\ref{fig:kagome11} (left lower panel). Left upper panel: The Bandstructure is spin-split. Right upper panel: The Fermi surface is represented by the blue dots. The orange circle is shown for illustration. Since the FS and the circle overlap, this system has an isotropic FS and does not show intrinsic AMR. Right lower panel: Difference of the FS points the circle. The FS is thus not perfectly spherical, but shows some six-fold modulation, which still does not allow for intrinsic AMR since in a hexagonal system, this corresponds to a symmetry operation. {\color{red} Old picture, to be replaced. To be added: two more panels with spintexture of both permutation of the compensated state. change color code of unit cell arrays: exchange red and green}}
 	\label{fig:totalkagomephase1a}
 \end{figure}
 
 
-Turning to non-collinear systems, we
-first start by considering magnetic configurations, which are not
-changing the principle properties of the system, meaning that all
-moments will remain in the $xy$-plane and the moments cancel out
-(hence the system is perfectly compensated). Starting from the
-original configuration of moments as shown in Fig.~\ref{fig:kagome11},
-there are two possibilities: First, by permutations, which one is
-shown in Fig.~\ref{fig:totalkagomephase1a}, and second, by rotating
-all moments at the simultaneously. In both cases, regardless the
-permutation or angle of rotation, intrinsic AMR cannot be found and
-furthermore the results are equivalent (as well in band structure and
-Fermi surface) to the results shown in
-Fig.~\ref{fig:totalkagomephase1a}. This is, as mentioned prior,
-because due to the lack of SOC, spin and lattice are
-decoupled~\cite{Gonzalez-Hernandez:2024}. {\color{red} to be added:}
-Nevertheless, as shown in Fig.~\ref{fig:totalkagomephase1a} (e) and (f), the spintexture changes depending on the permutation. 
+Turning to non-collinear systems, we first start by considering magnetic configurations, which are not changing the principle properties of the system, meaning that all moments will remain in the $xy$-plane (coplanar) and the moments cancel out (hence the system is perfectly compensated). Starting from the original configuration of moments as shown in Fig.~\ref{fig:kagome11}, there are two possibilities: First, by permutations, which one is shown in Fig.~\ref{fig:totalkagomephase1a}, and second, by rotating all moments at the simultaneously. In both cases, regardless the permutation or angle of rotation, intrinsic AMR cannot be found and furthermore the results are equivalent (as well in band structure and Fermi surface) to the results shown in
+Fig.~\ref{fig:totalkagomephase1a}. This is, as mentioned prior, because due to the lack of SOC, spin and lattice are decoupled~\cite{Gonzalez-Hernandez:2024}. {\color{red} to be added:} Nevertheless, as shown in Fig.~\ref{fig:totalkagomephase1a} (d) and (f), the spintexture changes depending on the permutation. 
 
 In the next step, we are individually rotating the magnetic moments
-within the $xy$-plane as shown in Figs.~\ref{fig:totalkagomephase350-60-70} and
-\ref{fig:totalkagomephase365l} {\color{red} (Figs to be replaced)}.
-%In both cases, the unequal rotation of the moments causes a small in-plane magnetization to emerge.
-KV: schematic in Fig.~\ref{fig:fs-rotation}.
-Consequently, there arises an anisotropy manifest in the Fermi suface
-shown in Fig.~\ref{fig:asymmFS} driven by the broken rotation symmetry (the MSLs
-transform no longer one into another). {\color{red} Don't forget to
-  discuss Mn$_3$Sn here...} ref.~\cite{Sharma:2023}
+within the $xy$-plane as shown in Fig. {\color{red} X (fig to be added where the rotation is shown)}: While moment $A$ remains fix, moment $B$ is rotated counterclockwise and moment $C$ is rotated clockwise, illustrating the effect of a magnetic field in $-\hat{y}$-direction. Moments $B$ and $C$ are rotated by the same angle $\alpha$. Using this notion, we would like to draw the attention to a few special cases: $\alpha = 0^\circ (120^\circ)$ corresponds to the compensated states shown in Fig.~\ref{fig:totalkagomephase1a} (c) (Fig.~\ref{fig:totalkagomephase1a} (e)), $\alpha = 240^\circ$ corresponds to the ferromagnetic states with magnetization along $+\hat{y}$ and $\alpha = 60^\circ$ corresponds to a collinear ferrimagnetic state. For all $\alpha \neq 0^\circ, 120^\circ, 240^\circ$ a partially compensated in-plane magnetization, or weak ferromagnetism (WF), exists. We found an anisotropic FS as shown in Fig.~\ref{fig:asymmFS} and thus intrinsic AMR for all WF cases, which we attribute to the the broken rotation symmetry (the MSLs transform no longer one into another). Interestingly, all WF cases except the ferrimagnetic case are non-collinear. The anisotropic FS in case of the collinear ferrimagnetic case indicates that the {\color{red} non-collinear magnetic order is not needed to generate the effect, given that symmetry is low enough.} The magnetization in the WF cases is likely not sufficient to be a SSA, as mentioned before, but might play a role as a "symmetry breaking parameter". Similar results were observed in MnTe, where a besides the collinear antiferromagnetic ordering, a weak ferromagneticlike signal (WFL) was observed. The AHE in MnTe was not attributed due to the WFL, however the AHE is due to an imbalance of magnetic domains with Hall contributions that cancel out. This imbalance causes the WFL and thus the WFL serves as measure of this imbalance~\cite{Kluczyk:2024}, similar to our magnetization serving as measure of the symmetry breaking.
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\linewidth]{img/fig4}
-	\caption{Anisotropy induced by magnetic order. Left panel: Fermi surface showing a pronounced anisotropy between $x$ and $y$-directions (orange = circle for reference) when green and blue mmoms in Fig.~\ref{fig:totalkagomephase1a} are rotated by~$\phi$ (so that red is now the inequivalent MSL); the small magnetization that ensues can serve as a measure of symmetry breaking. Right panel: AMR vs. Fermi energy in the same system. Despite being a qualitative model, limited quantitative statements are possible.
-      Energy scale directly comparable to the top left panel in Fig.~3.}
+	\caption{Anisotropy induced by magnetic order. Left panel: Fermi surface showing a pronounced anisotropy between $x$ and $y$-directions (orange = circle for reference) when green and blue mmoms in Fig.~\ref{fig:totalkagomephase1a} are rotated by~$\phi$ (so that red is now the inequivalent MSL); the small magnetization that ensues can serve as a measure of symmetry breaking. Right panel: AMR vs. Fermi energy in the same system. Despite being a qualitative model, limited quantitative statements are possible. Energy scale directly comparable to the top left panel in Fig.~\ref{fig:totalkagomephase1a}}
    \label{fig:asymmFS}
 \end{figure}
 
 {\color{red} \begin{itemize}
-	\item Describe the rotation of red and blue moment. we are passing some special cases: ferrimagnetism (60), permutation (120), ferromagnetism (240). 
-	\item Name, that there is always AMR, except compensated or FM state
-	\item Now, change the moment that is "fix" and rotate again: The FS will be rotated (include example from 36 deg) $\rightarrow$ propose an experiment (since the "fixing the other moment" refers to changing the direction of applied magnetic field). See Fig.~\ref{fig:fs-rotation}
-	\item Curiosity: In the ferrimagnetic order, despite being collinear, the FS is still two-fold and intrinsic AMR is produced. Furthermore, the FS can not only be rotated by "fixing" the other moment, but also by permutation
-	\item The existing anisotropy of conductivity in the (collinear!) ferrimagnetic state indicates that for the Kagome lattice, only the $120^\circ$ rotational symmetry needs to broken. Distinction: 1. Triangular lattice does not show any results, but has a higher symmetry per se. 2. The FM state has effectively only 1 MSL and rotating all moments at once doesnt change anything
+
+%	\item Distinction: 1. Triangular lattice does not show any results, but has a higher symmetry per se. 2. The FM state has effectively only 1 MSL and rotating all moments at once doesnt change anything
+
+   \item Now, change the moment that is "fix" and rotate again: The FS will be rotated (include example from 36 deg) $\rightarrow$ propose an experiment (since the "fixing the other moment" refers to changing the direction of applied magnetic field). See Fig.~\ref{fig:fs-rotation}
+   
+   	\item Coll Ferrimagnet: Furthermore, the FS can not only be rotated by "fixing" the other moment, but also by permutation
+   
+
 \end{itemize} }
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img/FS-rotation}
-	\caption{Rotation of the warped Fermi surface: In the blue case, the "magnetic field" was applied in $-\hat{y}$-direction, manipulating red and blue mmom. In the orange case, the field was applied along -blue mmom, manipulting red and green moment. The two FS are rotated by 60$^\circ$, and are not overlapping, resulting in a differing AMR}
+	\caption{Rotation of the warped Fermi surface: In the blue case, the "magnetic field" was applied in $-\hat{y}$-direction, manipulating red and blue mmom. In the orange case, the field was applied along -blue mmom, manipulting red and green moment. The two FS are rotated by 60$^\circ$, and are not overlapping, resulting in a differing AMR. {\color{red} change color code of unit cell arrays: exchange red and green}}
 	\label{fig:fs-rotation}
 \end{figure}
 
@@ -348,7 +345,7 @@ transform no longer one into another). {\color{red} Don't forget to
 %{\color{red} Hold on: What IF the in-plane magnetization is actually the cause of the AMR? See AMR in FM: as in Eq.~\ref{eq_ncollAMR} where $\alpha$ is the angle of rotation of magnetization. What if here: the small emerging magnetization is indeed the order parameter and the ncoll order is replacing simply the SOC?}
 
 \subsection{Triangular lattice}
-In case of the triangular lattice, the same operations were applied as for the kagome lattice. In both the compensated states (simultanous rotation, and the permutation of moments) and the non-compensated states show no anisotropic Fermi surface and hence, intrinsic AMR could not be found in this system. We attribute this to a higher symmetry the system shows {\color{red} which one? And what more?}
+In case of the triangular lattice, the same operations were applied as for the kagome lattice. In both the compensated states and the non-compensated states show no anisotropic Fermi surface and hence, intrinsic AMR could not be found in this system. We attribute this to a higher symmetry the system shows {\color{red} which one? And what more?}
 
 \subsection{CrSe and Mn$_3$Sn}
 Now we are moving towards the real materials CrSe and Mn$_3$Sn. CrSe has a double layer triangular lattice, where the in-plane magnetic moments within each plane cancel out. The magnetic moments have an out-of-plane component, which gives every individual plane an out-of-plane moment, which is canceled out in the entire system since the out-of-plane component of the second plane is oriented antiparallely. The three-dimensionality of the components render CrSe non-coplanar. {\color{red} Contrary to the toy models, we need to take into account more next neighbors to get realistic results: Calculations with CrSe where all moments are FM serve as sanity check and need to be isotropic, which for ten next neighbors is the case}. In the case of CrSe, neither the antiferromagnetic non-coplanar shows an anisotropic FS and intrinsic AMR, nor a non-compensated rotation similar to the case of kagome {\color{red} (describe, and describe in kagome the 36 deg more)}.
@@ -377,7 +374,7 @@ Here, we are choosing three types of setups: A kagome lattice, a triangular latt
 
 \begin{table}
 	\begin{tabular}{llll}
-	Lattice & Impurity $\hat{M}$ & AMR? & Spintexture \\
+	Lattice & Impurity $\hat{M}$ & AMR? & Spin texture \\
 	\hline 
 	\textbf{Kagome} & \textbf{X} & \textbf{Yes} & XY\\
 	\textbf{Kagome} & \textbf{Y} & \textbf{Yes} & XY \\
@@ -392,7 +389,7 @@ Here, we are choosing three types of setups: A kagome lattice, a triangular latt
 	Square FM & X & divergent & Y\\
 	Square FM & Y & No & Y
 \end{tabular}
-\caption{Results of the extrinsic AMR calculations for the various types of lattices and impurities as introduced in the text. "Yes" means that AMR was found, hence $\sigma_{xx} \neq \sigma_{yy}$ while for "No" an isotropic behavior was identified, where $\sigma_{xx} = \sigma_{yy}$. The value of the AMR ratio is not stated here, as our model is qualitative and quantitative values would not have any real meaning. Divergent means that both $\sigma_{xx}$ and $\sigma_{yy}$ are divergent or infinite and AMR cannot be defined, originating from a suppressed scattering rate $\Gamma \rightarrow 0$. {\color{red} The spintexture...}}
+\caption{Results of the extrinsic AMR calculations for the various types of lattices and impurities as introduced in the text. "Yes" means that AMR was found, hence $\sigma_{xx} \neq \sigma_{yy}$ while for "No" an isotropic behavior was identified, where $\sigma_{xx} = \sigma_{yy}$. The value of the AMR ratio is not stated here, as our model is qualitative and quantitative values would not have any real meaning. Divergent means that both $\sigma_{xx}$ and $\sigma_{yy}$ are divergent or infinite and AMR cannot be defined, originating from a suppressed scattering rate $\Gamma \rightarrow 0$. "Spin texture" indicates the active components of the k-space spin texture at the Fermi surface. XY indicates that all the spins are within the XY plane and thus $\hat{s}_z = 0$ for all spins. The spin texture serves as a good intuition for whether a certain impurity would lead to suppressed scattering.}
 \label{T_extrinsic}
 \end{table}
 
@@ -445,6 +442,7 @@ Summary and conclusion
 	\item propose some experimental method: AMR is traditionally known to be dependent on SOC - it was considered crucial to maximize the SOC to maximize AMR~\cite{Ritzinger:2023}. While SOC cannot be "turned off", we can talk about scaling effects: E.g. finding somewhere (in the classics) how AMR scales with SOC. Then looking at an analogous effect, e.g. AHE and look at Mn$_3$X (X = Ge~\cite{Kiyohara:2016}, Sn~\cite{Nakatsuji:2015}, Ir~\cite{Iwaki:2020}), where the atomic number of these 3 is very different $\rightarrow$ doesnt scale with SOC. Need to find something similar for AMR. Also, ab initio can give rise (compare to \cite{Gonzalez-Hernandez:2024} - also, there are spin currents in Mn3Sn and -Ge \cite{Zelezny:2017}. The discussion is really good there, take some inspiration and refer to it)
 	
 	\item stronger take home message?
+	\item p-wave magnetism and our paper ... 
 \end{itemize}
 
 
@@ -466,28 +464,28 @@ lattice constants'; when SO is switched off, we get  similar anisotropy...
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase3_180}
-	\caption{Results for the kagome lattice, where all moments point towards $+\hat{y}$ (FM state) (left lower panel). Left upper panel: The Bandstructure is still spin-split with two bands being flat (k-independent) on the shown k-range, which can be attibuted to the simplicity of the model. Right upper panel: The Fermi surface {\color{red} (Ef, band?)} is represented by the blue dots with the orange circle shown for illustration. The FS is isotropic. Right lower panel: Difference of the FS points the circle. The FS shows a small six-fold modulation on top of an almost perfect spherical symmetry. The system does not show intrinsic AMR.}
+	\caption{Results for the kagome lattice, where all moments point towards $+\hat{y}$ (FM state) (left lower panel). Left upper panel: The Bandstructure is still spin-split with two bands being flat (k-independent) on the shown k-range, which can be attibuted to the simplicity of the model. Right upper panel: The Fermi surface {\color{red} (Ef, band?)} is represented by the blue dots with the orange circle shown for illustration. The FS is isotropic. Right lower panel: Difference of the FS points the circle. The FS shows a small six-fold modulation on top of an almost perfect spherical symmetry. The system does not show intrinsic AMR. {\color{red} change color code of unit cell arrays: exchange red and green}}
 	\label{fig:totalkagomephase3180}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase3_0}
-	\caption{Collinear ferrimagnetic position. Elipsoid FS. AMR exists}
+	\caption{Collinear ferrimagnetic position. Elipsoid FS. AMR exists{\color{red} change color code of unit cell arrays: exchange red and green}}
 	\label{fig:totalkagomephase30}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase3_50-60-70}
-	\caption{Red and blue moment manipulated leading to some non-compensated state. Warped hexagon is sufficiently anisotropic}
+	\caption{Red and blue moment manipulated leading to some non-compensated state. Warped hexagon is sufficiently anisotropic{\color{red} change color code of unit cell arrays: exchange red and green}}
 	\label{fig:totalkagomephase350-60-70}
 \end{figure}
 
 \begin{figure}
 	\centering
 	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase3_65L}
-	\caption{Simulating magnetic field to the left (-x). Yes}
+	\caption{Simulating magnetic field to the left (-x). Yes{\color{red} change color code of unit cell arrays: exchange red and green} }
 	\label{fig:totalkagomephase365l}
 \end{figure}
 
@@ -619,6 +617,15 @@ S. Granville et al., Phys. Rev. B 72, 205127 (2005).
 
 \bibitem{Yang:2021} H. Yang \textit{et al}, Phys. Rev. B 104, 214419 (2021).
 %(doi:10.1103/PhysRevB.104.214419)
+    
+\bibitem{Rusnacko:2019} J. Rusnacko, D. Gotfryd, J. Chaloupka, Phys. Rev. B 99, 064425 (2019)
+
+\bibitem{Hayami:2020} S. Hayami, Y. Yanagi, H. Kusunose, "Spontaneous antisymmetric spin splitting in noncollinear antiferromagnets without spin-orbit coupling". \textit{Phys. Rev. B} vol. 101, p. 220403(R) (2020). DOI: 10.1103/PhysRevB.101.220403
+
+\bibitem{BirkHellenes:2023} P-wave magnets. arXiv:2309.01607 [cond-mat.mes-hall]
+
+\bibitem{Kluczyk:2024} K. P. Kluczyk, K. Gas, M. J. Grzybowski, P. Skupi\'nski, M. A. Borysiewicz, T. Fas, J. Suffczy\'nski, J. Z. Domagala , K. Grasza, A. Mycielski, M. Baj , K. H. Ahn , K. V\'yborn\'y, M. Sawicki, M. Gryglas-Borysiewicz, Phys. Rev. B 110, 155201 (2024)
+
     
 \end{thebibliography}
 
