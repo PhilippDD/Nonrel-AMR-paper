@@ -131,22 +131,15 @@ The comparably lesser known CrSe exhibits a NiAs-type structure~\cite{Corliss:19
 
 In this paper we will show how AMR can be achieved by non-collinear magnetic order while neglecting SOC and thus, rendering AMR an non-relativistic effect. We are modelling the various non-collinear systems using a tight-binding model. We will realize non-relativistic AMR in two different ways: Intrinsically, thus scattering-independent, due to an anisotropic Fermi surface and extrinsically by considering magnetic impurities. Our work on the intrinsic AMR can be seen as an extension of our previous work in Sec. 4.2.3 of Ref.~\cite{Ritzinger:2023}.
 
-In both cases, we will start by considering non-collinear magnetic order on a kagome lattice (see Fig.~\ref{fig:kagome11}) and a triangular lattice (see Fig.~\ref{fig:trigonal11}). Both lattices are all based on a triangular lattice. In case of the kagome lattice, regular vacancies (which in practice can be filled by non-magnetic atoms) are creating a structure consisting of triangles and hexagons. The magnetic unit cell of both the kagome and the triangular lattice consist of three magnetic moments as indicated in Figs.~\ref{fig:kagome11} and \ref{fig:trigonal11}. Please note, that the type of lattice (e.g. kagome etc.) does not automatically indicate the number of MSLs as, for example shown in other works involving kagome lattice~\cite{Hayami:2020} or a honeycomb lattice~\cite{Rusnacko:2019}.
+In both cases, we will start by considering non-collinear magnetic order on a kagome lattice and a triangular lattice (see Fig.~\ref{fig:kagome_triangular}). Both lattices are all based on a triangular structure. In case of the kagome lattice, regular vacancies (which in practice can be filled by non-magnetic atoms) are creating a structure consisting of triangles and hexagons. The magnetic unit cell of both the kagome and the triangular lattice consist of three magnetic moments as indicated in Fig.~\ref{fig:kagome_triangular}. Please note, that the type of lattice (e.g. kagome etc.) does not automatically indicate the number of MSLs as, for example shown in other works involving kagome lattice~\cite{Hayami:2020} or a honeycomb lattice~\cite{Rusnacko:2019}.
 
 In case of the intrinsic AMR, we are concluding shortly by considering real materials whose structure we got from MAGNDATA data base: CrSe~\cite{Magndata:CrSe} and Mn$_3$Sn~\cite{Magndata:Mn3Sn}. For the extrinsic AMR, one other toymodels is introduced: A square lattice with ferromagnetic moments, where the magnetic moments point along $\hat{y}$.
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{img/Kagome_11}
-	\caption{Schematic image of the kagome lattice with non-collinear magnetic order. The three magnetic moments in the magnetic unit cell are shown in red, green and blue. The net magnetic moment is zero. While the magnetic unit cell is the same as in the triangular lattice, the regular vacancy distinguishes the two. In practice, the vacancy can be filled with a non-magnetic atom.}
-	\label{fig:kagome11}
-\end{figure}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{img/Trigonal_11}
-	\caption{Schematic image of the triangular lattice with non-collinear magnetic order. The three magnetic moments in the magnetic unit cell are shown in red, green and blue. The net magnetic moment is zero.}
-	\label{fig:trigonal11}
+	\includegraphics[width=1\linewidth]{img/kagome_triangular_11.jpg}
+	\caption{Schematic image of (a) the kagome lattice and (b) the triangular lattice with non-collinear magnetic order. The three magnetic moments in the magnetic unit cell are shown in red (A), green (B) and blue (C). The net magnetic moment is zero. While the magnetic unit cell of both configurations is th same, the regular vacancy of the kagome lattice (dashed circle) distinguishes the two. In practice, the vacancy can be filled with a non-magnetic atom.}
+	\label{fig:kagome_triangular}
 \end{figure}
 
 
@@ -304,22 +297,32 @@ $\hbar\omega^p_{zz}$ to 5.10~eV.
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase1a}
-	\caption{Results for the kagome lattice, where the moments are permuted as compared to Fig.~\ref{fig:kagome11} (left lower panel). Left upper panel: The Bandstructure is spin-split. Right upper panel: The Fermi surface is represented by the blue dots. The orange circle is shown for illustration. Since the FS and the circle overlap, this system has an isotropic FS and does not show intrinsic AMR. Right lower panel: Difference of the FS points the circle. The FS is thus not perfectly spherical, but shows some six-fold modulation, which still does not allow for intrinsic AMR since in a hexagonal system, this corresponds to a symmetry operation. {\color{red} Old picture, to be replaced. To be added: two more panels with spintexture of both permutation of the compensated state. change color code of unit cell arrays: exchange red and green}}
+	\includegraphics[width=1\linewidth]{img/overview_Kagome_phase1a}
+	\caption{Results for two compensated magnetic configuration on the kagome lattice. (a) The band structure is spin-split. Permutation of magnetic moments does not change the bandstructure. (b) The Fermi surface at $E_F = 0$ (as indicated by the dashed line in (a)) is represented by the blue dots. The orange circle is shown for illustration. Since the FS and the circle overlap, this system has an isotropic FS and does not show intrinsic AMR. (c), (e) The magnetic unit cells of two compensated magnetic configurations and (d), (f) their respective k-space spin texture at the same Fermi level. While the band structure and Fermi surface is unaffected by permutation within the magnetic unit cell, the spin texture changes. The spin texture is entirely in the \textit{xy}-plane. The $\hat{z}$-component (not shown) of the spin texture is zero.}
 	\label{fig:totalkagomephase1a}
 \end{figure}
 
 
-Turning to non-collinear systems, we first start by considering magnetic configurations, which are not changing the principle properties of the system, meaning that all moments will remain in the $xy$-plane (coplanar) and the moments cancel out (hence the system is perfectly compensated). Starting from the original configuration of moments as shown in Fig.~\ref{fig:kagome11}, there are two possibilities: First, by permutations, which one is shown in Fig.~\ref{fig:totalkagomephase1a}, and second, by rotating all moments at the simultaneously. In both cases, regardless the permutation or angle of rotation, intrinsic AMR cannot be found and furthermore the results are equivalent (as well in band structure and Fermi surface) to the results shown in
-Fig.~\ref{fig:totalkagomephase1a}. This is, as mentioned prior, because due to the lack of SOC, spin and lattice are decoupled~\cite{Gonzalez-Hernandez:2024}. {\color{red} to be added:} Nevertheless, as shown in Fig.~\ref{fig:totalkagomephase1a} (d) and (f), the spintexture changes depending on the permutation. 
-
-In the next step, we are individually rotating the magnetic moments
-within the $xy$-plane as shown in Fig. {\color{red} X (fig to be added where the rotation is shown)}: While moment $A$ remains fix, moment $B$ is rotated counterclockwise and moment $C$ is rotated clockwise, illustrating the effect of a magnetic field in $-\hat{y}$-direction. Moments $B$ and $C$ are rotated by the same angle $\alpha$. Using this notion, we would like to draw the attention to a few special cases: $\alpha = 0^\circ (120^\circ)$ corresponds to the compensated states shown in Fig.~\ref{fig:totalkagomephase1a} (c) (Fig.~\ref{fig:totalkagomephase1a} (e)), $\alpha = 240^\circ$ corresponds to the ferromagnetic states with magnetization along $+\hat{y}$ and $\alpha = 60^\circ$ corresponds to a collinear ferrimagnetic state. For all $\alpha \neq 0^\circ, 120^\circ, 240^\circ$ a partially compensated in-plane magnetization, or weak ferromagnetism (WF), exists. We found an anisotropic FS as shown in Fig.~\ref{fig:asymmFS} and thus intrinsic AMR for all WF cases, which we attribute to the the broken rotation symmetry (the MSLs transform no longer one into another). Interestingly, all WF cases except the ferrimagnetic case are non-collinear. The anisotropic FS in case of the collinear ferrimagnetic case indicates that the {\color{red} non-collinear magnetic order is not needed to generate the effect, given that symmetry is low enough.} The magnetization in the WF cases is likely not sufficient to be a SSA, as mentioned before, but might play a role as a "symmetry breaking parameter". Similar results were observed in MnTe, where a besides the collinear antiferromagnetic ordering, a weak ferromagneticlike signal (WFL) was observed. The AHE in MnTe was not attributed due to the WFL, however the AHE is due to an imbalance of magnetic domains with Hall contributions that cancel out. This imbalance causes the WFL and thus the WFL serves as measure of this imbalance~\cite{Kluczyk:2024}, similar to our magnetization serving as measure of the symmetry breaking.
+Turning to non-collinear systems, we first start by considering magnetic configurations, which are not changing the principle properties of the system, meaning that all moments will remain in the $xy$-plane (coplanar) and the moments cancel out (hence the system is perfectly compensated). Starting from the original configuration of moments as shown in Fig.~\ref{fig:kagome_triangular} (a), there are two possibilities: First, by permutations, which one is shown in Fig.~\ref{fig:totalkagomephase1a}, and second, by rotating all moments at the simultaneously. In both cases, regardless the permutation or angle of rotation, intrinsic AMR cannot be found and furthermore the results are equivalent (as well in band structure and Fermi surface) to the results shown in
+Fig.~\ref{fig:totalkagomephase1a}. This is, as mentioned prior, because due to the lack of SOC, spin and lattice are decoupled~\cite{Gonzalez-Hernandez:2024}. Nevertheless, as shown in Fig.~\ref{fig:totalkagomephase1a} (d) and (f), the spintexture changes depending on the permutation. 
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.9\linewidth]{img/fig4}
-	\caption{Anisotropy induced by magnetic order. Left panel: Fermi surface showing a pronounced anisotropy between $x$ and $y$-directions (orange = circle for reference) when green and blue mmoms in Fig.~\ref{fig:totalkagomephase1a} are rotated by~$\phi$ (so that red is now the inequivalent MSL); the small magnetization that ensues can serve as a measure of symmetry breaking. Right panel: AMR vs. Fermi energy in the same system. Despite being a qualitative model, limited quantitative statements are possible. Energy scale directly comparable to the top left panel in Fig.~\ref{fig:totalkagomephase1a}}
+	\includegraphics[width=0.9\linewidth]{img/kagome_rotation}
+	\caption{Illustration of the rotation of the moments B (counterclockwise) and C (clockwise) by the same angle $\alpha$}
+	\label{fig:kagomerotation}
+\end{figure}
+
+
+In the next step, we are individually rotating the magnetic moments
+within the $xy$-plane as shown in Fig.~\ref{fig:kagomerotation}: While moment $A$ remains fix, moment $B$ is rotated counterclockwise and moment $C$ is rotated clockwise, illustrating the effect of a magnetic field in $-\hat{y}$-direction. Moments $B$ and $C$ are rotated by the same angle $\alpha$. Using this notion, we would like to draw the attention to a few special cases: $\alpha = 0^\circ (120^\circ)$ corresponds to the compensated states shown in Fig.~\ref{fig:totalkagomephase1a} (c) (Fig.~\ref{fig:totalkagomephase1a} (e)), $\alpha = 240^\circ$ corresponds to the ferromagnetic states with magnetization along $+\hat{y}$ and $\alpha = 60^\circ$ corresponds to a collinear ferrimagnetic state. For all $\alpha \neq 0^\circ, 120^\circ, 240^\circ$ a partially compensated in-plane magnetization, or weak ferromagnetism (WF), exists. We found an anisotropic FS as shown in Fig.~\ref{fig:asymmFS} and thus intrinsic AMR for all WF cases, which we attribute to the the broken rotation symmetry (the MSLs transform no longer one into another). Interestingly, all WF cases except the ferrimagnetic case are non-collinear. The anisotropic FS in case of the collinear ferrimagnetic case indicates that the {\color{red} non-collinear magnetic order is not needed to generate the effect, given that symmetry is low enough.} The magnetization in the WF cases is likely not sufficient to be a SSA, as mentioned before, but might play a role as a "symmetry breaking parameter". Similar results were observed in MnTe, where a besides the collinear antiferromagnetic ordering, a weak ferromagneticlike signal (WFL) was observed. The AHE in MnTe was not attributed due to the WFL, however the AHE is due to an imbalance of magnetic domains with Hall contributions that cancel out. This imbalance causes the WFL and thus the WFL serves as measure of this imbalance~\cite{Kluczyk:2024}, similar to our magnetization serving as measure of the symmetry breaking.
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{img/fig4_new}
+	\caption{Anisotropy induced by magnetic order. The magnetic configuration corresponds to a rotation of the green and blue moments by by~$\alpha = 36^\circ$ as shown in Fig.~\ref{fig:kagomerotation} (or \ref{fig:fs-rotation} (a)). The small magnetization that ensues can serve as a measure of symmetry breaking. 		
+	(a) Fermi surface (blue) at $E_F = 0.1$ showing a pronounced anisotropy between $\hat{x}$ and $\hat{y}$-directions. The orange circle is shown as reference.	
+	(b) AMR vs. Fermi energy in the same system. Despite being a qualitative model, limited quantitative statements are possible. Energy scale directly comparable to Fig.~\ref{fig:totalkagomephase1a} (a)}
    \label{fig:asymmFS}
 \end{figure}
 
@@ -336,8 +339,10 @@ within the $xy$-plane as shown in Fig. {\color{red} X (fig to be added where the
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{img/FS-rotation}
-	\caption{Rotation of the warped Fermi surface: In the blue case, the "magnetic field" was applied in $-\hat{y}$-direction, manipulating red and blue mmom. In the orange case, the field was applied along -blue mmom, manipulting red and green moment. The two FS are rotated by 60$^\circ$, and are not overlapping, resulting in a differing AMR. {\color{red} change color code of unit cell arrays: exchange red and green}}
+	\includegraphics[width=1\linewidth]{img/FS-rotation}
+	\caption{Rotation of the warped Fermi surface: 
+	%	
+	(a) The "magnetic field" (ochre) was applied in $-\hat{y}$-direction (or $\sphericalangle (\vec{B}, \hat{x}) = -90^\circ$) rotating the moments B and C towards the magnetic field, while leaving A in its original positions. The rotated moments are shown in ochre. (b) Simultaneously, the magnetic field (violet) was applied along $\sphericalangle (\vec{B}, \hat{x}) = 120^\circ$. The rotated moments are shown in violet. (c) The resulting Fermi surfaces (ochre and violet, respectively) are hence rotated by 60$^\circ$, and are not overlapping, resulting in a differing AMR.}
 	\label{fig:fs-rotation}
 \end{figure}
 
@@ -383,7 +388,7 @@ Here, we are choosing three types of setups: A kagome lattice, a triangular latt
 	\hline 
 	Triangular & X & divergent & Z \\
 	Triangular & Y & divergent & Z \\
-	Triangular (non-comp.) & X & No & ZY \\
+	{\color{red} Triangular (non-comp.) & X & No & ZY} \\
     Triangular (non-comp.) & Y & No & ZY \\
 	\hline
 	Square FM & X & divergent & Y\\
