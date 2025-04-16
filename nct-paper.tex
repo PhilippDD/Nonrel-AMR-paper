@@ -294,6 +294,7 @@ $\hbar\omega^p_{zz}$ to 5.10~eV.
 
 
 \subsection{Kagome lattice}
+\label{sec_I_Kagome}
 
 \begin{figure}
 	\centering
@@ -326,23 +327,14 @@ within the $xy$-plane as shown in Fig.~\ref{fig:kagomerotation}: While moment $A
    \label{fig:asymmFS}
 \end{figure}
 
-{\color{red} \begin{itemize}
-
-%	\item Distinction: 1. Triangular lattice does not show any results, but has a higher symmetry per se. 2. The FM state has effectively only 1 MSL and rotating all moments at once doesnt change anything
-
-   \item Now, change the moment that is "fix" and rotate again: The FS will be rotated (include example from 36 deg) $\rightarrow$ propose an experiment (since the "fixing the other moment" refers to changing the direction of applied magnetic field). See Fig.~\ref{fig:fs-rotation}
-   
-   	\item Coll Ferrimagnet: Furthermore, the FS can not only be rotated by "fixing" the other moment, but also by permutation
-   
-
-\end{itemize} }
+We are now proposing an experiment to show this effect: Applying the magnetic field along a symmetry axis will tilt the magnetic moments, generate a weak ferromagnetic moment (magnetization) and result in AMR due to an anisotropic Fermi surface (see Fig.~\ref{fig:asymmFS} (a) and (c), ochre). Now, we are rotating the magnetic field by $120^\circ$, so that it points along another symmetry axis. The magnetic moments will tilt in another direction (see Fig.~\ref{fig:asymmFS} (b)), and result in a rotated FS, which does not overlap with the previous FS (see Fig.~\ref{fig:asymmFS} (c)), thus leading to another value of AMR. We can now rotate the conductivity measurement from $\sigma_{xx}$ and $\sigma_{yy}$ to $\sigma_{VV}$ and $\sigma_{WW}$, where here $\hat{V} = \hat{x} + 120^\circ$ ($\hat{W} = \hat{y} + 120^\circ$) and recover the original value of the AMR. 
 
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{img/FS-rotation}
 	\caption{Rotation of the warped Fermi surface: 
 	%	
-	(a) The "magnetic field" (ochre) was applied in $-\hat{y}$-direction (or $\sphericalangle (\vec{B}, \hat{x}) = -90^\circ$) rotating the moments B and C towards the magnetic field, while leaving A in its original positions. The rotated moments are shown in ochre. (b) Simultaneously, the magnetic field (violet) was applied along $\sphericalangle (\vec{B}, \hat{x}) = 120^\circ$. The rotated moments are shown in violet. (c) The resulting Fermi surfaces (ochre and violet, respectively) are hence rotated by 60$^\circ$, and are not overlapping, resulting in a differing AMR.}
+	(a) The magnetic field (ochre) was applied in $-\hat{y}$-direction (or $\sphericalangle (\vec{B}, \hat{x}) = -90^\circ$) rotating the moments B and C towards the magnetic field, while leaving A in its original positions. The rotated moments are shown in ochre. (b) Simultaneously, the magnetic field (violet) was applied along $\sphericalangle (\vec{B}, \hat{x}) = 120^\circ$. The rotated moments are shown in violet. (c) The resulting Fermi surfaces (ochre and violet, respectively) are hence rotated by 60$^\circ$, and are not overlapping, resulting in a differing AMR.}
 	\label{fig:fs-rotation}
 \end{figure}
 
@@ -350,17 +342,25 @@ within the $xy$-plane as shown in Fig.~\ref{fig:kagomerotation}: While moment $A
 %{\color{red} Hold on: What IF the in-plane magnetization is actually the cause of the AMR? See AMR in FM: as in Eq.~\ref{eq_ncollAMR} where $\alpha$ is the angle of rotation of magnetization. What if here: the small emerging magnetization is indeed the order parameter and the ncoll order is replacing simply the SOC?}
 
 \subsection{Triangular lattice}
+\label{sec_I_triangular}
+
 In case of the triangular lattice, the same operations were applied as for the kagome lattice. In both the compensated states and the non-compensated states show no anisotropic Fermi surface and hence, intrinsic AMR could not be found in this system. We attribute this to a higher symmetry the system shows {\color{red} which one? And what more?}
 
 \subsection{CrSe and Mn$_3$Sn}
-Now we are moving towards the real materials CrSe and Mn$_3$Sn. CrSe has a double layer triangular lattice, where the in-plane magnetic moments within each plane cancel out. The magnetic moments have an out-of-plane component, which gives every individual plane an out-of-plane moment, which is canceled out in the entire system since the out-of-plane component of the second plane is oriented antiparallely. The three-dimensionality of the components render CrSe non-coplanar. {\color{red} Contrary to the toy models, we need to take into account more next neighbors to get realistic results: Calculations with CrSe where all moments are FM serve as sanity check and need to be isotropic, which for ten next neighbors is the case}. In the case of CrSe, neither the antiferromagnetic non-coplanar shows an anisotropic FS and intrinsic AMR, nor a non-compensated rotation similar to the case of kagome {\color{red} (describe, and describe in kagome the 36 deg more)}.
+\label{sec_I_mat}
 
-Secondly, we investigated Mn$_3$Sn, which has a double layer kagome lattice. The in-plane magnetic moments within each plane cancel out. There is no out-of-plane component of the magnetic moment, which makes it a coplanar, non-collinear magnetic. {\color{red} In case of Mn$_3$Sn, we need to take into account 20 next neighbors to get a realistic result for the FM.} In the compensated case, we again do not get an anisotropic FS and thus no AMR, but in the non-compensated case, we can achieve intrinsic AMR. Thus, this system behaves similar to the kagome toy model.
+Now we are moving towards the real materials CrSe and Mn$_3$Sn. CrSe has a double layer triangular lattice, where the in-plane magnetic moments within each plane cancel out. The magnetic moments have an out-of-plane component, which gives every individual plane an out-of-plane moment, which is canceled out in the entire system since the out-of-plane component of the second plane is oriented antiparallely. The three-dimensionality of the components render CrSe non-coplanar. Secondly, we investigated Mn$_3$Sn, which has a double layer kagome lattice. The in-plane magnetic moments within each plane cancel out. There is no out-of-plane component of the magnetic moment, which makes it a coplanar, non-collinear magnetic.
 
-{\color{red} \textbf{Add an image: non-compensated Mn3Sn configuration, FS, FS polar plot}
-}
+Our prodecure is very similar to the procedure of the toy models: We first looked at the compensated cases, which, for both triangular CrSe and kagome Mn$_3$Sn did not yield any anisotropy. This is analogous to previous results. Then, we simulated an in-plane field along $+\hat{x}$-direction, leading to a tilt of magnetic moments and a weak non-zero in-plane magnetization. In case of CrSe, just like in the triangular toy model case, no anisotropy was generate, while for Mn$_3$Sn (see Fig.~\ref{fig:mn3sn_36deg_FS}) a non-zero AMR was found.
 
-{\color{red} CrSe has nns = 10 (10 next neighbors), Mn3Sn has nns = 20 taken into account, kagome and triangular only nns = 1. } 
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{img/Mn3Sn_nns20_rot36_band15_Ef15_nk100}
+	\caption{Fermi surface in the non-compensated case of Mn$_3$Sn at $E_F = 15$: (a) Fermi surface (blue) and for illustrative reasons a circle (orange). It seems as if they are overlapping and thus, an isotropic FS exists. (b) Deviation of the FS (blue dots in (a)) from the spherical symmetry (orange in (a)): A weak two-fold symmetry is recognizable, which is sufficent to reder the FS sufficiently anisotropic and create AMR {\color{red} (c) Magnetic configuration (missing) - Shall this plot be included?}}
+	\label{fig:mn3sn_36deg_FS}
+\end{figure}
+
+
 
 \section{Extrinsic AMR}
 \label{sec_extrinsic}
@@ -388,7 +388,7 @@ Here, we are choosing three types of setups: A kagome lattice, a triangular latt
 	\hline 
 	Triangular & X & divergent & Z \\
 	Triangular & Y & divergent & Z \\
-	{\color{red} Triangular (non-comp.) & X & No & ZY} \\
+	{\color{red} Triangular (non-comp.)} & {\color{red} X} & {\color{red} No} & {\color{red} ZY} \\
     Triangular (non-comp.) & Y & No & ZY \\
 	\hline
 	Square FM & X & divergent & Y\\
@@ -462,34 +462,50 @@ we express our gratitude to them as well as to funding sources from GA\v{C}R (un
 
 $\hbar\omega^p_{xx}=5.87$~eV and $\hbar\omega^p_{zz}=5.23$ for MnN
 were obtained using GGA with SO under assumption of 'perfectly cubic
-lattice constants'; when SO is switched off, we get  similar anisotropy...
+lattice constants'; when SO is switched off, we get similar anisotropy...
 
-\section{Further magnetic configuration in the kagome lattice}
+\section{Commentary about the Tight-Binding Model}
+
+From Fig.~\ref{fig:asymmFS} (b), we can see that within our model, limited quantitative statements are possible, at least as long we are keeping within the same lattice and magnetic configurations and keep to a sufficiently small regime. Comparing AMR values quantitatively at vastly different Fermi levels (and thus bands), or the same Fermi levels for different magnetic configuration, or even between different lattices, leads to jumps in the numerical value and does thus not provide ground for a useful analysis. On the contrary, a qualtitative statement is always possible: Given a certain lattice and magnetic configuration, in an isotropic case $\sigma_{xx} / \sigma_{yy} = 1$ for all Fermi energies in all bands, and in an anisotropic case, $\sigma_{xx} / \sigma_{yy} \neq 1$ for all Fermi energies in all bands (although the precise value of $\sigma_{xx} / \sigma_{yy}$ in the anisotropic case is very sensitive to small parameter changes). With changing Fermi level $E_F$, the form of the FS might change as illustrated in Fig.~\ref{fig:kagomenns1phase1adphi0band3ef1}.
+
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase3_180}
+	\includegraphics[width=\linewidth]{img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100}
+	\caption{Fermi surface for the compensated configuration of the Kagome lattice (see Fig.~\ref{fig:totalkagomephase1a} (b)) for a different Fermi level ($E_F = 1$). The FS becomes more hexagonal, which is still isotropic with regards to the conductivity tensor.}
+	\label{fig:kagomenns1phase1adphi0band3ef1}
+\end{figure}
+
+
+
+While in both toy models (kagome lattice, see Sec.~\ref{sec_I_Kagome}, and triangular lattice, see Sec.~\ref{sec_I_triangular}), we only took next neighbor hopping into account, in the material systems (CrSe and Mn$_3$Sn, see Sec.~\ref{sec_I_mat}), this did not lead to any realistic results. For CrSe we took the ten next neighbors into account, for Mn$_3$Sn 20. We chose this number by calculating the Fermi surface and AMR for the material systems using fully ferromagnetic moments as input. Since there is no SOC, the results should be isotropic, any anisotropy can be considered an artifact. We started by next neighbor hopping and increased the number of neighbors until isotropy in the FM state was reached.
+
+\section{Further magnetic configuration in the kagome lattice {\color{red} - keep, or kick out?} }
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{img_total/total_Kagome_phase3_180}
 	\caption{Results for the kagome lattice, where all moments point towards $+\hat{y}$ (FM state) (left lower panel). Left upper panel: The Bandstructure is still spin-split with two bands being flat (k-independent) on the shown k-range, which can be attibuted to the simplicity of the model. Right upper panel: The Fermi surface {\color{red} (Ef, band?)} is represented by the blue dots with the orange circle shown for illustration. The FS is isotropic. Right lower panel: Difference of the FS points the circle. The FS shows a small six-fold modulation on top of an almost perfect spherical symmetry. The system does not show intrinsic AMR. {\color{red} change color code of unit cell arrays: exchange red and green}}
 	\label{fig:totalkagomephase3180}
 \end{figure}
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase3_0}
+	\includegraphics[width=0.9\linewidth]{img_total/total_Kagome_phase3_0}
 	\caption{Collinear ferrimagnetic position. Elipsoid FS. AMR exists{\color{red} change color code of unit cell arrays: exchange red and green}}
 	\label{fig:totalkagomephase30}
 \end{figure}
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase3_50-60-70}
+	\includegraphics[width=0.9\linewidth]{img_total/total_Kagome_phase3_50-60-70}
 	\caption{Red and blue moment manipulated leading to some non-compensated state. Warped hexagon is sufficiently anisotropic{\color{red} change color code of unit cell arrays: exchange red and green}}
 	\label{fig:totalkagomephase350-60-70}
 \end{figure}
 
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{img_total/total_Kagome_phase3_65L}
+	\includegraphics[width=0.9\linewidth]{img_total/total_Kagome_phase3_65L}
 	\caption{Simulating magnetic field to the left (-x). Yes{\color{red} change color code of unit cell arrays: exchange red and green} }
 	\label{fig:totalkagomephase365l}
 \end{figure}
