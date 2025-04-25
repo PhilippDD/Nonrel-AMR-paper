@@ -1,365 +1,336 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.21)  16 APR 2025 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.8.22)  23 APR 2025 16:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **nct-paper.tex
 (./nct-paper.tex
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-07-20>
-(/usr/local/texlive/2024/texmf-dist/tex/latex/revtex4-1/revtex4-1.cls
-Document Class: revtex4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for 
-documentation)
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14>
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/revtex4-1.cls
+Document Class: revtex4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revt
+ex4/ for documentation)
  Copyright (c) 2009 The American Physical Society.
  mailto:revtex@aps.org
  Licensed under the LPPL:
 http://www.ctan.org/tex-archive/macros/latex/base/lppl.txt
  Arthur Ogawa <arthur_ogawa at sbcglobal dot net>
  Based on work by David Carlisle <david at dcarlisle.demon.co.uk>.
-ltxutil[2020/09/30 4.1s utilities package (portions licensed from W. E. Baxter 
-web at superscript.com)]
-LaTeX Info: Redefining \@centercr on input line 346.
+ltxutil[2010/07/25/20:33:00 4.1r utilities package (portions licensed from W. E
+. Baxter web at superscript.com)]
+LaTeX Info: Redefining \@centercr on input line 308.
+Class revtex4-1 Info: Repairing broken LaTeX eqnarray on input line 358.
+\eqncolsep=\skip47
 Class revtex4-1 Info: Repairing hyperref-unfriendly LaTeX definition of \mpfoot
-note on input line 471.
-Class revtex4-1 Info: Repairing broken LateX \@sect on input line 793.
-\intertabularlinepenalty=\count194
-\@tbpen=\count195
-\@arstrutbox@hline=\box52
-Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1824.
-Class revtex4-1 Info: Making \typeout \long on input line 2089.
-ltxfront[2020/09/30 4.1s frontmatter package (AO,DPC)]
-\c@affil=\count196
-\c@collab=\count197
-\absbox=\box53
-ltxgrid[2020/09/30 4.1s page grid package (portions licensed from W. E. Baxter 
-web at superscript.com)]
-\c@linecount=\count198
-\output@latex=\toks17
-\box@size@1=\box54
-\box@size@2=\box55
-\@protection@box=\box56
-\@topmark@saved=\toks18
-\footins@saved=\box57
-\footins@recovered=\box58
-\column@recovered=\box59
-\pagesofar=\box60
-\footsofar=\box61
-\pagegrid@col=\count199
-Class revtex4-1 Info: Overriding \@vspace, \@vspacer, \@no@pgbk, \@newline, and
- \\  on input line 5655.
-\c@part=\count266
-\c@section=\count267
-\c@subsection=\count268
-\c@subsubsection=\count269
-\c@paragraph=\count270
-\c@subparagraph=\count271
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\c@figure=\count272
-\fbox@1=\box62
-\c@table=\count273
-\fbox@2=\box63
-\c@video=\count274
-\fbox@4=\box64
+note on input line 433.
+Class revtex4-1 Info: Repairing broken LateX \@sect on input line 755.
+\intertabularlinepenalty=\count167
+\@tbpen=\count168
+\@arstrutbox@hline=\box45
+Class revtex4-1 Info: Repairing broken LaTeX \@xbitor on input line 1786.
+Class revtex4-1 Info: Making \typeout \long on input line 2046.
+ltxfront[2010/07/25/20:33:00 4.1r frontmatter package (AO,DPC)]
+\c@affil=\count169
+\c@collab=\count170
+\absbox=\box46
+ltxgrid[2010/07/25/20:33:00 4.1r page grid package (portions licensed from W. E
+. Baxter web at superscript.com)]
+\c@linecount=\count171
+\output@latex=\toks14
+\box@size@1=\box47
+\box@size@2=\box48
+\@protection@box=\box49
+\@topmark@saved=\toks15
+\footins@saved=\box50
+\footins@recovered=\box51
+\column@recovered=\box52
+\pagesofar=\box53
+\footsofar=\box54
+\pagegrid@col=\count172
+
+Class revtex4-1 Warning: Failed to recognize \@vspace, \@vspacer, \@no@pgbk, \@
+newline, and \\; no patches applied. Please get a more up-to-date class, .
+
+\c@part=\count173
+\c@section=\count174
+\c@subsection=\count175
+\c@subsubsection=\count176
+\c@paragraph=\count177
+\c@subparagraph=\count178
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\c@figure=\count179
+\fbox@1=\box55
+\c@table=\count180
+\fbox@2=\box56
+\c@video=\count181
+\fbox@4=\box57
 \@bibdataout=\write3
-\widetext@top=\box65
-\widetext@bot=\box66
+\widetext@top=\box58
+\widetext@bot=\box59
 
 Class revtex4-1 Warning: No Society specified, using default society aps.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/revtex4-1/aps4-1.rtx
-File: aps4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for documentation
-)
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps4-1.rtx
+File: aps4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for docu
+mentation)
 Class revtex4-1 Info: RevTeX society APS selected on input line 31.
 )
-Class revtex4-1 Info: Selecting journal prb on input line 7618.
-Class revtex4-1 Info: APS journal PRB selected on input line 7619.
+Class revtex4-1 Info: Selecting journal prb on input line 7544.
+Class revtex4-1 Info: APS journal PRB selected on input line 7545.
 
 
 Class revtex4-1 Warning: No type size specified, using default 10.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/revtex4-1/aps10pt4-1.rtx
-File: aps10pt4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for documenta
-tion)
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/aps10pt4-1.rtx
+File: aps10pt4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ for 
+documentation)
 Class revtex4-1 Info: RevTeX pointsize 10pt selected on input line 30.
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2023/07/27 v1.04 Text only upper/lower case changing (DPC)
-Package textcase Info: Defining Legacy names on input line 20.
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks19
+\@emptytoks=\toks16
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2024/05/23 v2.17q AMS math features
-\@mathmargin=\skip51
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2021/08/26 v2.01 AMS text
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
-\ex@=\dimen141
+\@emptytoks=\toks17
+\ex@=\dimen134
 )
 LaTeX Info: Redefining \text on input line 28.
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen142
+\pmbraise@=\dimen135
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count275
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count276
-\leftroot@=\count277
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count278
-\DOTSCASE@=\count279
-LaTeX Info: Redefining \ldots on input line 495.
-LaTeX Info: Redefining \dots on input line 498.
-LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box67
-\strutbox@=\box68
-LaTeX Info: Redefining \big on input line 721.
-LaTeX Info: Redefining \Big on input line 722.
-LaTeX Info: Redefining \bigg on input line 723.
-LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen143
-LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count280
-LaTeX Info: Redefining \bmod on input line 904.
-LaTeX Info: Redefining \pmod on input line 909.
-LaTeX Info: Redefining \smash on input line 939.
-LaTeX Info: Redefining \relbar on input line 969.
-LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count281
-\dotsspace@=\muskip17
-\c@parentequation=\count282
-\dspbrk@lvl=\count283
-\tag@help=\toks21
-\row@=\count284
-\column@=\count285
-\maxfields@=\count286
-\andhelp@=\toks22
-\eqnshift@=\dimen144
-\alignsep@=\dimen145
-\tagshift@=\dimen146
-\tagwidth@=\dimen147
-\totwidth@=\dimen148
-\lineht@=\dimen149
-\@envbody=\toks23
-\multlinegap=\skip52
-\multlinetaggap=\skip53
-\mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2953.
-LaTeX Info: Redefining \] on input line 2954.
+\inf@bad=\count182
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count183
+\leftroot@=\count184
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count185
+\DOTSCASE@=\count186
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+\big@size=\dimen136
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count187
+\c@MaxMatrixCols=\count188
+\dotsspace@=\muskip16
+\c@parentequation=\count189
+\dspbrk@lvl=\count190
+\tag@help=\toks18
+\row@=\count191
+\column@=\count192
+\maxfields@=\count193
+\andhelp@=\toks19
+\eqnshift@=\dimen137
+\alignsep@=\dimen138
+\tagshift@=\dimen139
+\tagwidth@=\dimen140
+\totwidth@=\dimen141
+\lineht@=\dimen142
+\@envbody=\toks20
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip18
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip54
-\bibsep=\skip55
+\bibhang=\skip53
+\bibsep=\skip54
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count287
+\c@NAT@ctr=\count194
 )
-Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7623.
+Class revtex4-1 Info: Repairing natbib's \BibitemShut on input line 7549.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/revtex4-1/revsymb4-1.sty
-Package: revsymb4-1 2020/09/30 4.1s (http://publish.aps.org/revtex4/ for docume
-ntation)
+(/usr/share/texlive/texmf-dist/tex/latex/revtex/revsymb4-1.sty
+Package: revsymb4-1 2010/07/25/20:33:00 4.1r (http://publish.aps.org/revtex4/ f
+or documentation)
 LaTeX Info: Redefining \frak on input line 95.
 LaTeX Info: Redefining \Bbb on input line 111.
 LaTeX Info: Redefining \REV@mathfrak on input line 119.
 ))
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks25
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks22
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2024/01/14 v1.3d Standard LaTeX Color (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 149.
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/mathcolor.ltx))
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2024-07-10 v7.01j Hypertext links for LaTeX
-
-(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2019/11/07 v1.0c TeX engine tests
 )
-(/usr/local/texlive/2024/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/usr/local/texlive/2024/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-
-(/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(/usr/local/texlive/2024/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-))
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hycolor/hycolor.sty
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
-ty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-))
-
-Package nameref Warning: The definition of \label has changed! 
-(nameref)                Check your packages! 
-(nameref)                Replacing it with the kernel definition on input line 
-149.
-
-\c@section@level=\count288
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count289
+(/usr/share/texlive/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-)
-\@linkdim=\dimen152
-\Hy@linkcounter=\count290
-\Hy@pagecounter=\count291
+\@linkdim=\dimen145
+\Hy@linkcounter=\count195
+\Hy@pagecounter=\count196
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2024-07-10 v7.01j Hyperref: PDFDocEncoding definition (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/usr/local/texlive/2024/texmf-dist/tex/generic/intcalc/intcalc.sty
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count292
-
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2024-07-10 v7.01j Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
+(/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4157.
-Package hyperref Info: Link nesting OFF on input line 4162.
-Package hyperref Info: Hyper index ON on input line 4165.
-Package hyperref Info: Plain pages OFF on input line 4172.
-Package hyperref Info: Backreferencing OFF on input line 4177.
+\Hy@SavedSpaceFactor=\count197
+\pdfmajorversion=\count198
+Package hyperref Info: Hyper figures OFF on input line 4547.
+Package hyperref Info: Link nesting OFF on input line 4552.
+Package hyperref Info: Hyper index ON on input line 4555.
+Package hyperref Info: Plain pages OFF on input line 4562.
+Package hyperref Info: Backreferencing OFF on input line 4567.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4424.
-LaTeX Info: Redefining \href on input line 4674.
-\c@Hy@tempcnt=\count293
-LaTeX Info: Redefining \url on input line 4763.
-\XeTeXLinkMargin=\dimen153
+Package hyperref Info: Bookmarks ON on input line 4800.
+LaTeX Info: Redefining \href on input line 5070.
+\c@Hy@tempcnt=\count199
+LaTeX Info: Redefining \url on input line 5159.
+\XeTeXLinkMargin=\dimen146
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/bitset/bitset.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count294
-\Field@Width=\dimen154
-\Fld@charsize=\dimen155
-Package hyperref Info: Hyper figures OFF on input line 6042.
-Package hyperref Info: Link nesting OFF on input line 6047.
-Package hyperref Info: Hyper index ON on input line 6050.
-Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
-Package hyperref Info: Link coloring with OCG OFF on input line 6067.
-Package hyperref Info: PDF/A mode OFF on input line 6072.
+\Fld@menulength=\count266
+\Field@Width=\dimen147
+\Fld@charsize=\dimen148
+Package hyperref Info: Hyper figures OFF on input line 6430.
+Package hyperref Info: Link nesting OFF on input line 6435.
+Package hyperref Info: Hyper index ON on input line 6438.
+Package hyperref Info: backreferencing OFF on input line 6445.
+Package hyperref Info: Link coloring OFF on input line 6450.
+Package hyperref Info: Link coloring with OCG OFF on input line 6455.
+Package hyperref Info: PDF/A mode OFF on input line 6460.
+LaTeX Info: Redefining \ref on input line 6500.
+LaTeX Info: Redefining \pageref on input line 6504.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package with kernel methods
+(/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count295
-\c@Item=\count296
-\c@Hfootnote=\count297
+\Hy@abspage=\count267
+\c@Item=\count268
+\c@Hfootnote=\count269
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2024-07-10 v7.01j Hyperref driver for pdfTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
-kage
-with kernel methods
+(/usr/share/texlive/texmf-dist/tex/latex/atveryend/atveryend.sty
+Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
-\Fld@listcount=\count298
-\c@bookmark@seq@number=\count299
+\Fld@listcount=\count270
+\c@bookmark@seq@number=\count271
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(/usr/local/texlive/2024/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-85.
+86.
 )
-\Hy@SectionHShift=\skip56
+\Hy@SectionHShift=\skip55
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 7.
 Class revtex4-1 Info: Unrecognized LaTeX tabular. Please update this document c
@@ -368,10 +339,10 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 27.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 27.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 27.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
-\l__pdf_internal_box=\box69
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count272
+\l__pdf_internal_box=\box62
 )
 (./nct-paper.aux)
 \openout1 = `nct-paper.aux'.
@@ -392,32 +363,46 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 27.
-LaTeX Font Info:    ... okay on input line 27.
 
-(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count301
-\scratchdimen=\dimen156
-\scratchbox=\box70
-\nofMPsegments=\count302
-\nofMParguments=\count303
-\everyMPshowfont=\toks26
-\MPscratchCnt=\count304
-\MPscratchDim=\dimen157
-\MPnumerator=\count305
-\makeMPintoPDFobject=\count306
-\everyMPtoPDFconversion=\toks27
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+\scratchcounter=\count273
+\scratchdimen=\dimen149
+\scratchbox=\box63
+\nofMPsegments=\count274
+\nofMParguments=\count275
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count276
+\MPscratchDim=\dimen150
+\MPnumerator=\count277
+\makeMPintoPDFobject=\count278
+\everyMPtoPDFconversion=\toks24
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+\AtBeginShipoutBox=\box64
 Package hyperref Info: Link coloring OFF on input line 27.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count279
+)
+LaTeX Info: Redefining \ref on input line 27.
+LaTeX Info: Redefining \pageref on input line 27.
+LaTeX Info: Redefining \nameref on input line 27.
 
 (./nct-paper.out) (./nct-paper.out)
 \@outlinefile=\write4
@@ -429,243 +414,241 @@ Class revtex4-1 Info: Taking \maketitle back from hyperref on input line 27.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
 
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
 
 
-(/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 2359) in paragraph at lines 103--104
+Underfull \hbox (badness 2359) in paragraph at lines 98--99
 []\OT1/cmr/m/n/10 Before we turn to-wards the re-al-iza-tion of non-
  []
 
-[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 4556) in paragraph at lines 125--126
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 4556) in paragraph at lines 120--121
 []\OT1/cmr/m/n/10 The com-pa-ra-bly lesser known CrSe ex-hibits a
  []
 
 
-Underfull \hbox (badness 2134) in paragraph at lines 125--126
+Underfull \hbox (badness 2134) in paragraph at lines 120--121
 \OT1/cmr/m/n/10 NiAs-type struc-ture$[]$. Its non-coplanar an-ti-fer-ro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
-<img/kagome_triangular_11.jpg, id=245, 940.51375pt x 1158.3275pt>
+<img/kagome_triangular_11.jpg, id=256, 940.51375pt x 1158.3275pt>
 File: img/kagome_triangular_11.jpg Graphic file (type jpg)
 <use img/kagome_triangular_11.jpg>
-Package pdftex.def Info: img/kagome_triangular_11.jpg  used on input line 140.
+Package pdftex.def Info: img/kagome_triangular_11.jpg  used on input line 135.
 (pdftex.def)             Requested size: 246.0pt x 302.96086pt.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 157.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 152.
 
-[2{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-}]
+[2]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 164.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 160.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 164.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 160.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 [3 <./img/kagome_triangular_11.jpg>]
-Underfull \hbox (badness 2980) in paragraph at lines 239--243
+Underfull \hbox (badness 2980) in paragraph at lines 245--249
 \OT1/cmr/m/n/10 the anisotropy of the re-sis-tiv-ity (or con-duc-tiv-ity)
  []
 
-
-Underfull \hbox (badness 1484) in paragraph at lines 245--250
+[4]
+Underfull \hbox (badness 1484) in paragraph at lines 251--256
 \OT1/cmr/m/n/10 where the re-lax-ation time $\OML/cmm/m/it/10 ^^\$ \OT1/cmr/m/n
 /10 is con-stant and thus
  []
 
-[4]
-<img/overview_Kagome_phase1a.jpg, id=332, 994.71625pt x 1284.8pt>
+<img/overview_Kagome_phase1a.jpg, id=331, 994.71625pt x 1284.8pt>
 File: img/overview_Kagome_phase1a.jpg Graphic file (type jpg)
 <use img/overview_Kagome_phase1a.jpg>
 Package pdftex.def Info: img/overview_Kagome_phase1a.jpg  used on input line 30
-1.
+7.
 (pdftex.def)             Requested size: 246.0pt x 317.72922pt.
-<img/kagome_rotation.jpg, id=338, 763.85374pt x 487.8225pt>
+[5 <./img/overview_Kagome_phase1a.jpg>]
+<img/kagome_rotation.jpg, id=347, 763.85374pt x 487.8225pt>
 File: img/kagome_rotation.jpg Graphic file (type jpg)
 <use img/kagome_rotation.jpg>
-Package pdftex.def Info: img/kagome_rotation.jpg  used on input line 312.
+Package pdftex.def Info: img/kagome_rotation.jpg  used on input line 318.
 (pdftex.def)             Requested size: 221.3985pt x 141.39046pt.
- [5 <./img/overview_Kagome_phase1a.jpg>]
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 320.
-
-
-LaTeX Warning: A float is stuck (cannot be placed) on input line 320.
-
-
-Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
-
 <img/fig4_new.png, id=353, 900.0024pt x 437.7153pt>
 File: img/fig4_new.png Graphic file (type png)
 <use img/fig4_new.png>
-Package pdftex.def Info: img/fig4_new.png  used on input line 323.
+Package pdftex.def Info: img/fig4_new.png  used on input line 329.
 (pdftex.def)             Requested size: 246.0pt x 119.64072pt.
 <img/FS-rotation.jpg, id=364, 1177.39874pt x 679.53876pt>
 File: img/FS-rotation.jpg Graphic file (type jpg)
 <use img/FS-rotation.jpg>
-Package pdftex.def Info: img/FS-rotation.jpg  used on input line 334.
+Package pdftex.def Info: img/FS-rotation.jpg  used on input line 340.
 (pdftex.def)             Requested size: 246.0pt x 141.97116pt.
+ [6 <./img/kagome_rotation.jpg> <./img/fig4_new.png> <./img/FS-rotation.jpg>]
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 349.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 349.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 355.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 349.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 355.
 
-[6 <./img/kagome_rotation.jpg> <./img/fig4_new.png> <./img/FS-rotation.jpg>]
-<img/Mn3Sn_nns20_rot36_band15_Ef15_nk100.png, id=377, 1250.6725pt x 624.3325pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 355.
+
+<img/Mn3Sn_nns20_rot36_band15_Ef15_nk100.png, id=378, 1250.6725pt x 624.3325pt>
 
 File: img/Mn3Sn_nns20_rot36_band15_Ef15_nk100.png Graphic file (type png)
 <use img/Mn3Sn_nns20_rot36_band15_Ef15_nk100.png>
 Package pdftex.def Info: img/Mn3Sn_nns20_rot36_band15_Ef15_nk100.png  used on i
-nput line 358.
+nput line 364.
 (pdftex.def)             Requested size: 246.0pt x 122.79703pt.
-<img/Kagome_21.jpg, id=380, 1284.8pt x 699.61375pt>
+<img/Kagome_21.jpg, id=381, 1284.8pt x 699.61375pt>
 File: img/Kagome_21.jpg Graphic file (type jpg)
 <use img/Kagome_21.jpg>
-Package pdftex.def Info: img/Kagome_21.jpg  used on input line 372.
+Package pdftex.def Info: img/Kagome_21.jpg  used on input line 378.
 (pdftex.def)             Requested size: 196.80075pt x 107.15797pt.
 
-Overfull \hbox (4.41173pt too wide) in paragraph at lines 381--397
+Overfull \hbox (4.41173pt too wide) in paragraph at lines 387--403
  []$[]$ 
  []
 
 [7 <./img/Mn3Sn_nns20_rot36_band15_Ef15_nk100.png> <./img/Kagome_21.jpg>]
-<img/Combined_Spintexture.png, id=395, 542.025pt x 258.9675pt>
+<img/Combined_Spintexture.png, id=396, 542.025pt x 258.9675pt>
 File: img/Combined_Spintexture.png Graphic file (type png)
 <use img/Combined_Spintexture.png>
-Package pdftex.def Info: img/Combined_Spintexture.png  used on input line 405.
+Package pdftex.def Info: img/Combined_Spintexture.png  used on input line 411.
 (pdftex.def)             Requested size: 246.0pt x 117.53401pt.
 
 [8 <./img/Combined_Spintexture.png (PNG copy)>]
-<img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png, id=422, 1234.6125pt x 62
+<img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png, id=421, 1234.6125pt x 62
 5.33624pt>
 File: img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png Graphic file (type p
 ng)
 <use img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png>
 Package pdftex.def Info: img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png  
-used on input line 474.
+used on input line 480.
 (pdftex.def)             Requested size: 246.0pt x 124.59747pt.
 
-Underfull \hbox (badness 2376) in paragraph at lines 481--482
+Underfull \hbox (badness 2376) in paragraph at lines 487--488
 []\OT1/cmr/m/n/10 While in both toy mod-els (kagome lat-tice, see
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 483.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 489.
 
-<img_total/total_Kagome_phase3_180.jpg, id=428, 1106.1325pt x 779.91376pt>
+<img_total/total_Kagome_phase3_180.jpg, id=427, 1106.1325pt x 779.91376pt>
 File: img_total/total_Kagome_phase3_180.jpg Graphic file (type jpg)
 <use img_total/total_Kagome_phase3_180.jpg>
 Package pdftex.def Info: img_total/total_Kagome_phase3_180.jpg  used on input l
-ine 487.
+ine 493.
 (pdftex.def)             Requested size: 221.3985pt x 156.09898pt.
-<img_total/total_Kagome_phase3_0.jpg, id=429, 1101.11375pt x 777.90625pt>
+<img_total/total_Kagome_phase3_0.jpg, id=428, 1101.11375pt x 777.90625pt>
 File: img_total/total_Kagome_phase3_0.jpg Graphic file (type jpg)
 <use img_total/total_Kagome_phase3_0.jpg>
 Package pdftex.def Info: img_total/total_Kagome_phase3_0.jpg  used on input lin
-e 494.
+e 500.
 (pdftex.def)             Requested size: 221.3985pt x 156.40938pt.
-<img_total/total_Kagome_phase3_50-60-70.jpg, id=430, 1120.185pt x 803.0pt>
+<img_total/total_Kagome_phase3_50-60-70.jpg, id=429, 1120.185pt x 803.0pt>
 File: img_total/total_Kagome_phase3_50-60-70.jpg Graphic file (type jpg)
 <use img_total/total_Kagome_phase3_50-60-70.jpg>
 Package pdftex.def Info: img_total/total_Kagome_phase3_50-60-70.jpg  used on in
-put line 501.
+put line 507.
 (pdftex.def)             Requested size: 221.3985pt x 158.69797pt.
-<img_total/total_Kagome_phase3_65L.jpg, id=431, 1016.79875pt x 776.9025pt>
+<img_total/total_Kagome_phase3_65L.jpg, id=430, 1016.79875pt x 776.9025pt>
 File: img_total/total_Kagome_phase3_65L.jpg Graphic file (type jpg)
 <use img_total/total_Kagome_phase3_65L.jpg>
 Package pdftex.def Info: img_total/total_Kagome_phase3_65L.jpg  used on input l
-ine 508.
+ine 514.
 (pdftex.def)             Requested size: 221.3985pt x 169.1646pt.
 (./nct-paper.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 53.
 
-) [9 <./img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png> <./img_total/tota
-l_Kagome_phase3_180.jpg>] [10 <./img_total/total_Kagome_phase3_0.jpg> <./img_to
-tal/total_Kagome_phase3_50-60-70.jpg> <./img_total/total_Kagome_phase3_65L.jpg>
-] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 632--633
+) [9 <./img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 542.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 542.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[10 <./img_total/total_Kagome_phase3_180.jpg> <./img_total/total_Kagome_phase3_
+0.jpg> <./img_total/total_Kagome_phase3_50-60-70.jpg> <./img_total/total_Kagome
+_phase3_65L.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 638--639
  []\OT1/cmr/m/n/9 Dunz et al. MnN, DOI: 10.1103/Phys-RevRe-
  []
 
 
-Overfull \hbox (28.27463pt too wide) in paragraph at lines 635--636
+Overfull \hbox (28.27463pt too wide) in paragraph at lines 641--642
  []\OT1/cmtt/m/n/9 https://www.cryst.ehu.es/magndata/index.php?index=0.199\OT1/
 cmr/m/n/9 ,
  []
 
 
-Overfull \hbox (45.85141pt too wide) in paragraph at lines 637--638
+Overfull \hbox (45.85141pt too wide) in paragraph at lines 643--644
  []\OT1/cmtt/m/n/9 https://www.cryst.ehu.es/magndata/index.php?this[]label=2.35
 \OT1/cmr/m/n/9 ,
  []
 
-(./nct-paper.bbl) [12] (./nct-paper.aux)
- ***********
-LaTeX2e <2024-06-01> patch level 2
-L3 programming layer <2024-07-20>
- ***********
+(./nct-paper.bbl) [11]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 659.
+ (./nct-paper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 659.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 659.
 Package rerunfilecheck Info: File `nct-paper.out' has not changed.
-(rerunfilecheck)             Checksum: FB6608DCD031F017E0A9CC2B726E36BC;4256.
+(rerunfilecheck)             Checksum: AD69E91E283593DBB8C0C600A85A4816;1687.
  ) 
 Here is how much of TeX's memory you used:
- 12174 strings out of 473579
- 185787 string characters out of 5728234
- 1965957 words of memory out of 5000000
- 34817 multiletter control sequences out of 15000+600000
- 564976 words of font info for 63 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 75i,10n,79p,1993b,762s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
-usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
-sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
-ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/loc
-al/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local
-/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
-exlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texl
-ive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive
-/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/20
-24/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/202
-4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2024/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2024/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2024/texmf-dist/
-fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2024/texmf-d
-ist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2024/tex
-mf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on nct-paper.pdf (12 pages, 1539169 bytes).
+ 8670 strings out of 483183
+ 126837 string characters out of 5966292
+ 443735 words of memory out of 5000000
+ 23413 multiletter control sequences out of 15000+600000
+ 539553 words of font info for 52 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 38i,10n,35p,1993b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/ritzinger/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000
+.600pk></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmtt9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+symbols/msbm10.pfb>
+Output written on nct-paper.pdf (11 pages, 1524284 bytes).
 PDF statistics:
- 586 PDF objects out of 1000 (max. 8388607)
+ 563 PDF objects out of 1000 (max. 8388607)
  499 compressed objects within 5 object streams
- 120 named destinations out of 1000 (max. 500000)
+ 119 named destinations out of 1000 (max. 500000)
  258 words of extra memory for PDF output out of 10000 (max. 10000000)
 
