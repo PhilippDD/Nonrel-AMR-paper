@@ -1,0 +1,127 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: nct-paper_new.aux
+I couldn't open database file lit.bib
+---line 155 of file nct-paper_new.aux
+ : \bibdata{nct-paper_newNotes,lit
+ :                                }
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 216 of file nct-paper_new.aux
+ : \bibdata
+ :         {nct-paper_newNotes}
+I'm skipping whatever remains of this command
+The style file: apsrev4-1.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: nct-paper_newNotes.bib
+Warning--I didn't find a database entry for "Thomson:1857"
+Warning--I didn't find a database entry for "Ritzinger:2023"
+Warning--I didn't find a database entry for "Alagoz:2015"
+Warning--I didn't find a database entry for "McGuire:1975"
+Warning--I didn't find a database entry for "Gonzalez-Betancourt:2024"
+Warning--I didn't find a database entry for "Kriegner:2017"
+Warning--I didn't find a database entry for "Volny:2020"
+Warning--I didn't find a database entry for "Zubac:2021"
+Warning--I didn't find a database entry for "Wadley:2016"
+Warning--I didn't find a database entry for "Kabara:2017"
+Warning--I didn't find a database entry for "Doring:1938"
+Warning--I didn't find a database entry for "Ritzinger:2021"
+Warning--I didn't find a database entry for "Sato:2019"
+Warning--I didn't find a database entry for "Limmer:2008"
+Warning--I didn't find a database entry for "DeRanieri:2008"
+Warning--I didn't find a database entry for "NamHai:2012"
+Warning--I didn't find a database entry for "Limmer:2006"
+Warning--I didn't find a database entry for "Dong:2023"
+Warning--I didn't find a database entry for "Nadvordnik:2021"
+Warning--I didn't find a database entry for "Park:2021"
+Warning--I didn't find a database entry for "Kato:2008"
+Warning--I didn't find a database entry for "Velev:2005"
+Warning--I didn't find a database entry for "Zeng:2020"
+Warning--I didn't find a database entry for "Kato:2007"
+Warning--I didn't find a database entry for "Zhang:2017"
+Warning--I didn't find a database entry for "Nagaosa:2010"
+Warning--I didn't find a database entry for "Bonbien:2022"
+Warning--I didn't find a database entry for "Gonzalez-Hernandez:2024"
+Warning--I didn't find a database entry for "Park:2018"
+Warning--I didn't find a database entry for "Sharma:2023"
+Warning--I didn't find a database entry for "Manna:2018"
+Warning--I didn't find a database entry for "Wu:2023"
+Warning--I didn't find a database entry for "Chen:2021"
+Warning--I didn't find a database entry for "Nakatsuji:2015"
+Warning--I didn't find a database entry for "Reichlova:2019"
+Warning--I didn't find a database entry for "Zelezny:2017"
+Warning--I didn't find a database entry for "Zhou:2020"
+Warning--I didn't find a database entry for "Ikhlas:2017"
+Warning--I didn't find a database entry for "Cable:1993"
+Warning--I didn't find a database entry for "Hayami:2020"
+Warning--I didn't find a database entry for "Rusnacko:2019"
+Warning--I didn't find a database entry for "Magndata:Mn3Sn"
+Warning--I didn't find a database entry for "BirkHellenes:2023"
+Warning--I didn't find a database entry for "Vyborny:2009"
+Warning--I didn't find a database entry for "Bakonyi:2022"
+Warning--I didn't find a database entry for "Dunz:2020"
+Warning--I didn't find a database entry for "Yang:2021"
+Warning--I didn't find a database entry for "Vyborny:2009_a"
+Warning--I didn't find a database entry for "g"
+Warning--I didn't find a database entry for "Kluczyk:2024"
+Warning--I didn't find a database entry for "Kiyohara:2016"
+Warning--I didn't find a database entry for "Iwaki:2020"
+control{REVTEX41Control}, control.key{N/A}, control.author{N/A}, control.editor{N/A}, control.title{N/A}, control.pages{N/A}, control.year{N/A}, control.eprint{N/A}, 
+control{apsrev41Control}, control.key{N/A}, control.author{08}, control.editor{1}, control.title{}, control.pages{0}, control.year{1}, control.eprint{N/A}, 
+Warning--jnrlst (dependency: not reversed) set 1
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+merlin.mbs apsrev4-1.bst 2010-07-25 4.21a (PWD, AO, DPC) hacked
+Control: key (0) 
+Control: author (8) initials jnrlst
+Control: editor formatted (1) identically to author
+Control: production of article title (-1) disabled
+Control: page (0) single
+Control: year (1) truncated
+Control: production of eprint (0) enabled
+You've used 2 entries,
+            5847 wiz_defined-function locations,
+            1705 strings with 15875 characters,
+and the built_in function-call counts, 955 in all, are:
+= -- 12
+> -- 13
+< -- 33
++ -- 7
+- -- 19
+* -- 131
+:= -- 68
+add.period$ -- 0
+call.type$ -- 2
+change.case$ -- 0
+chr.to.int$ -- 10
+cite$ -- 2
+duplicate$ -- 130
+empty$ -- 15
+format.name$ -- 0
+if$ -- 120
+int.to.chr$ -- 1
+int.to.str$ -- 9
+missing$ -- 28
+newline$ -- 52
+num.names$ -- 0
+pop$ -- 68
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 32
+stack$ -- 0
+substring$ -- 10
+swap$ -- 108
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 10
+type$ -- 12
+warning$ -- 1
+while$ -- 9
+width$ -- 0
+write$ -- 52
+(There were 2 error messages)
