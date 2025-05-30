@@ -40,7 +40,7 @@
 Cukrovarnick\'a 10, CZ-16253 Praha 6, Czech Republic}
 
 
-\date{May29, 2025}
+\date{May30, 2025}
 
 \begin{abstract}
 Anisotropic magnetoresistance (AMR) is a manifestation of
@@ -90,6 +90,8 @@ We distinguish two commonly realized forms of AMR:
 Beyond the manner of realization, AMR can be further categorized based on its physical origin:
 
 \paragraph{Intrinsic vs. Extrinsic.} Intrinsic AMR refers to symmetry-breaking effects that are scattering-independent, whereas extrinsic AMR arises from spin-dependent scattering. For a long time, the extrinsic mechanism received more attention, and only a few works acknowledge scattering-independent contributions to the AMR~\cite{Kato:2008, Velev:2005, Zeng:2020, Kato:2007, Nadvordnik:2021, Park:2021}. Frequency-dependent studies~\cite{Nadvordnik:2021, Park:2021} allow these two contributions to be distinguished experimentally: the extrinsic contribution scales roughly with $1/\omega$, while the intrinsic one is frequency-independent. Intrinsic effects are well known in the anomalous Hall effect (AHE) and spin Hall effect (SHE), where they are linked to Berry curvature~\cite{Nagaosa:2010, Zhang:2017}. In contrast, the origin of intrinsic AMR is related to the anisotropy of the Fermi surface, which will be explored in Sec.~\ref{sec_intrinsic}.
+{\color{red} There's a recent claim~\cite{Dong:2025_a} that Berry curvature
+can also contribute to intrinsic AMR... think about it.}
 
 \paragraph{Non-Crystalline vs. Crystalline.} The AMR signal in polycrystalline samples follows the $\cos 2\varphi$ dependence of Eq.~\ref{eq_ncollAMR} and is called non-crystalline AMR. In samples with a high crystalline quality, more complex angular dependencies emerge, such as four-fold symmetries in e.g. Ni~\cite{Doring:1938}, Co$_2$MnGa~\cite{Sato:2019,Ritzinger:2021}, and (Ga,Mn)As~\cite{DeRanieri:2008}, six-fold symmetries e.g. in hexagonal MnTe~\cite{Kriegner:2017, Gonzalez-Betancourt:2024}, and sometimes even higher symmetries~\cite{Gonzalez-Betancourt:2024, NamHai:2012}. Although such features have been known for decades, they are sometimes misinterpreted as magnetocrystalline anisotropy~\cite{Ritzinger:2023} or titled to be newly discovered effects~\cite{Dong:2023}. Analysis of higher angular harmonics are usually conducted in systems with an SSA, but can be expanded effortlessly to include MSLs as shown in appendix ~\ref{apx_phenomodel}.
 
@@ -110,7 +112,15 @@ In this work, we explore how AMR can arise in the absence of SOC by focusing on 
 \begin{itemize}
 	\item \textbf{Intrinsic AMR:} We analyze how magnetic-order-induced anisotropy can manifest when scattering is disregared in three different ways: As a spontaneous effect in the collinear antiferromagnet MnN, due to manipulation of magnetic moments by an external magnetic field in idealized toy models and Mn$_3$Sn, and in the extreme case of a magnetic-field-dependent metal-insulator-transition (MIT) in EuTe$_2$. The spontaneous effect is investigated by an \textit{ab initio} calculation. We investigate the idealized toy models (e.g., kagome and triangular lattices) and Mn$_3$Sn using a tight-binding model and Boltzmann transport calculations. We assume isotropic scattering by applying the relaxation time approximation (RTA). We apply Neumann’s principle to determine which symmetries must be broken to realize AMR in the absence of SOC.
 	
-	\item \textbf{Extrinsic AMR:} We study AMR resulting from scattering on (aligned) ferromagnetic impurities. We assume that typically unordered impurities are only weakly coupled to the lattice and can be aligned by a weak external magnetic field, which does not overcome the exchange interactions of the host material.	{\color{red}Explain-our-scenario...}
+	\item \textbf{Extrinsic AMR:} We study AMR resulting from scattering on (aligned) magnetic impurities. We assume that typically unordered impurities are only weakly coupled to the lattice and can be aligned by a weak external magnetic field, which does not overcome the exchange interactions of the host material.	{\color{red}Explain-our-scenario...}
+        Our motivation here is the off-stoichiometry of Mn$_{3+x}$X 
+        non-collinear AFMs (typically, $x\approx 0.2$, see early work of 
+Kren et al. '75
+        % doi: 10.1016/0378-4363(75)90066-2
+	or other references in Sec. III.C). For $x=0$ there would be no
+        such impurities but when $x>0$ they must be incorporated into the
+        crystal somehow --- and likely not couple to the "underlying matrix"
+        (or at least, couple differently).
 \end{itemize}
  
 
@@ -288,7 +298,11 @@ In summary, we have investigated various magnetic configurations on a kagome and
 \subsection{A Material Example: Mn$_3$Sn}
 \label{sec_I_mat}
 
-Mn$_3$Sn is a well-studied non-collinear antiferromagnet with a double-layer kagome lattice and a net moment of (close to~\cite{Tomiyashi:1982}) zero. It rose to attention due to its considerable potental for future spintronics applications: Strong, and intrinsic AHE and SHE were found~\cite{Chen:2021, Manna:2018, Nakatsuji:2015, Zhou:2020, Zhang:2017} as well as a strong anomalous Nernst effect~\cite{Chen:2021, Manna:2018, Zhou:2020} spin-polarized charge currents~\cite{Zelezny:2017}, and ultrafast spin dynamics~\cite{Chen:2021, Nakatsuji:2015}.
+Mn$_3$Sn is a well-studied non-collinear antiferromagnet where stoichiometry
+is very important: see Kasia Gas et al. '25 % doi: 10.1063/5.0254918
+{\color{red} Elaborate on this...}
+It features 
+a double-layer kagome lattice and a net moment of (close to~\cite{Tomiyashi:1982}) zero. It rose to attention due to its considerable potental for future spintronics applications: Strong, and intrinsic AHE and SHE were found~\cite{Chen:2021, Manna:2018, Nakatsuji:2015, Zhou:2020, Zhang:2017} as well as a strong anomalous Nernst effect~\cite{Chen:2021, Manna:2018, Zhou:2020} spin-polarized charge currents~\cite{Zelezny:2017}, and ultrafast spin dynamics~\cite{Chen:2021, Nakatsuji:2015}.
 
 We employ a simultaneous analysis utilizing a tight-binding model and the Boltzmann formalism in RTA as in the previous section. The structure for Mn$_3$Sn is taken from the MAGNDATA database~\cite{Magndata:Mn3Sn}. We will start by considering the fully compensated case and proceed by tilting the magnetic moments in a fashion that simulates an external magnetic field in the \textit{x}-direction (see Fig.~\ref{fig:mn3sn_36deg_FS} (a)), similar to Fig.~\ref{fig:kagomerotation}. As a result, similar to the previous case of the fully compensated kagome lattice, the fully compensated Mn$_3$Sn shows an isotropic FS and does not exhibit AMR. The tilted case shows a small ellipsoid warping of the otherwise isotropic FS (as can be seen by the two-fold symmery in Fig.~\ref{fig:mn3sn_36deg_FS} (c)) and exhibits thus a small AMR. Employing the symmetry analysis using the \textit{Symmetr} code~\cite{Symmetr}, we find that the fully compensated Mn$_3$Sn configuration exhibits $60^\circ$ and $120^\circ$ real-space rotation symmetry, while the tilted configuration breaks both. This further confirms our previously made assumptions. \\
 
@@ -590,6 +604,8 @@ We are now proposing an experiment to show this effect: Applying the magnetic fi
 
 \bibitem{Trushin:2009_a} M. Trushin et al., PRB 80, 134405
 
+\bibitem{Dong:2025_a} M. Q. Dong, Z. X. Song, and Zhi-Xin Guo,
+   Phys. Rev. B 111, 174447 (2025).
   
 \end{thebibliography}
 
