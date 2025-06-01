@@ -298,17 +298,31 @@ In summary, we have investigated various magnetic configurations on a kagome and
 \subsection{A Material Example: Mn$_3$Sn}
 \label{sec_I_mat}
 
-Mn$_3$Sn is a well-studied non-collinear antiferromagnet where stoichiometry
-is very important: see Kasia Gas et al. '25 % doi: 10.1063/5.0254918
-{\color{red} Elaborate on this...}
-It features 
-a double-layer kagome lattice and a net moment of (close to~\cite{Tomiyashi:1982}) zero. It rose to attention due to its considerable potental for future spintronics applications: Strong, and intrinsic AHE and SHE were found~\cite{Chen:2021, Manna:2018, Nakatsuji:2015, Zhou:2020, Zhang:2017} as well as a strong anomalous Nernst effect~\cite{Chen:2021, Manna:2018, Zhou:2020} spin-polarized charge currents~\cite{Zelezny:2017}, and ultrafast spin dynamics~\cite{Chen:2021, Nakatsuji:2015}.
+We now wish to apply the insights gained in previous Subsection to
+a realistic material system. Kagome lattice occurs for example in
+Mn$_3$Sn which is a well-explored non-collinear antiferromagnet that, even
+if studied for more than 60 years~\cite{Cable:1993_a}  %PRB 48, 6159, ref. 6 !!
+has attracted considerable attention more recently {\color{red}(cite $>1$ work
+about AHE, spintronics etc.)}  Depending on exact stoichiometry (which
+needs to be tuned because of reasons related to proper crystal-growth),
+some Mn atoms can either be incorprorated into substitutional positions
+or substituted for Sn atoms~\cite{Gas:2025_a}.
+% is very important: see Kasia Gas et al. '25 % doi: 10.1063/5.0254918
+Hence, Mn$_3$Sn features 
+a double-layer kagome lattice (with a net moment of close to~\cite{Tomiyashi:1982} zero) and additional magnetic Mn atoms, for stoichiometries in excess of 3:1, whose participation in magnetic order {\color{red} is unclear; see Fig.~7 for example}. 
+%It rose to attention due to its considerable potental for future spintronics applications: Strong, and intrinsic AHE and SHE were found~\cite{Chen:2021, Manna:2018, Nakatsuji:2015, Zhou:2020, Zhang:2017} as well as a strong anomalous Nernst effect~\cite{Chen:2021, Manna:2018, Zhou:2020} spin-polarized charge currents~\cite{Zelezny:2017}, and ultrafast spin dynamics~\cite{Chen:2021, Nakatsuji:2015}.
+In the next Section, we will discuss scattering on these additional Mn atoms
+but here, we will assume exact 3:1 stoichiometry. The structure for Mn$_3$Sn is taken from the MAGNDATA database~\cite{Magndata:Mn3Sn}.
 
-We employ a simultaneous analysis utilizing a tight-binding model and the Boltzmann formalism in RTA as in the previous section. The structure for Mn$_3$Sn is taken from the MAGNDATA database~\cite{Magndata:Mn3Sn}. We will start by considering the fully compensated case and proceed by tilting the magnetic moments in a fashion that simulates an external magnetic field in the \textit{x}-direction (see Fig.~\ref{fig:mn3sn_36deg_FS} (a)), similar to Fig.~\ref{fig:kagomerotation}. As a result, similar to the previous case of the fully compensated kagome lattice, the fully compensated Mn$_3$Sn shows an isotropic FS and does not exhibit AMR. The tilted case shows a small ellipsoid warping of the otherwise isotropic FS (as can be seen by the two-fold symmery in Fig.~\ref{fig:mn3sn_36deg_FS} (c)) and exhibits thus a small AMR. Employing the symmetry analysis using the \textit{Symmetr} code~\cite{Symmetr}, we find that the fully compensated Mn$_3$Sn configuration exhibits $60^\circ$ and $120^\circ$ real-space rotation symmetry, while the tilted configuration breaks both. This further confirms our previously made assumptions. \\
+
+%We employ a simultaneous analysis utilizing a tight-binding model and the Boltzmann formalism in RTA as in the previous section. The structure for Mn$_3$Sn is taken from the MAGNDATA database~\cite{Magndata:Mn3Sn}. 
+We will start by considering the fully compensated case and proceed by tilting the magnetic moments in a fashion that simulates an external magnetic field in the \textit{y}-direction.
+% (see Fig.~\ref{fig:mn3sn_36deg_FS} (a)), similar to Fig.~\ref{fig:kagomerotation}. As a result, similar to the previous case of the fully compensated kagome lattice, the fully compensated Mn$_3$Sn shows an isotropic FS and does not exhibit AMR. The tilted case shows a small ellipsoid warping of the otherwise isotropic FS (as can be seen by the two-fold symmery in Fig.~\ref{fig:mn3sn_36deg_FS} (c)) and exhibits thus a small AMR. 
+Employing the symmetry analysis using the \textit{Symmetr} code~\cite{Symmetr}, we find that the fully compensated Mn$_3$Sn configuration exhibits $60^\circ$ and $120^\circ$ real-space rotation symmetry, while the tilted configuration breaks both. 
 
 While we have treated Mn$_3$Sn as a fully compensated coplanar AFM, there are studies about a weak ferromagnetic moment occur in the material~\cite{Tomiyashi:1982}. This also opens a debate about how the magnetic field couples to the magnetic moments: While we suggest a tilting of the magnetic moments towards the magnetic field, it is also possible that the WF moment couples to the field and rotates the entire structure simulatenously, as suggested by some studies~\cite{Wu:2023}. However, as emphasized before, a global spin rotation does not exhibit AMR due to the absence of SOC. 
 
-In summary, we have analyzed the promising non-collinear AFM Mn$_3$Sn and showed that if the $60^\circ$ and $120^\circ$ real-space rotation symmetries are broken, an anisotropic FS and AMR is induced. This is consistent with our previous findings on a kagome toy model.
+In summary, we have analyzed the promising non-collinear AFM Mn$_3$Sn and showed that if the $60^\circ$ and $120^\circ$ real-space rotation symmetries are broken, an anisotropic FS and AMR is induced (as claimed by Sharma et al.~[\onlinecite{Sharma:2023_a}]). This is consistent with our previous findings on a kagome toy model.
 
 
 
@@ -591,9 +605,9 @@ We are now proposing an experiment to show this effect: Applying the magnetic fi
 \bibitem{Limmer:2008} W. Limmer, J. Daeubler, L. Dreher, M. Glunk, W. Schoch, S. Schwaiger, R. Sauer, Phys. Rev. B 77, 205210 (2008). %DOI: 10.1103/PhysRevB.77.205210 %24 
 
 
-%\bibitem{Sharma:2023} V. Sharma, R. Nepal, R. C. Budhani, \textit{Phys. Rev. B} 108, 144435 (2023). %DOI: 10.1103/PhysRevB.108.144435 
+\bibitem{Sharma:2023_a} V. Sharma, R. Nepal, R. C. Budhani, \textit{Phys. Rev. B} 108, 144435 (2023). %DOI: 10.1103/PhysRevB.108.144435 
 
-%\bibitem{Cable:1993} J. W. Cable, N. Wakabayasi, P. Radhakrishna, \textit{Phys. Rev. B} 48, 6159 (1993). %DOI: 10.1103/PhysRevB.48.6159
+\bibitem{Cable:1993_a} J. W. Cable, N. Wakabayasi, P. Radhakrishna, \textit{Phys. Rev. B} 48, 6159 (1993). %DOI: 10.1103/PhysRevB.48.6159
 
 %\bibitem{Ikhlas:2017} M. Ikhlas, T. Tomita, T. Koretsune, M.-T. Suzuki, D. Nishio-Hamane, R. Arita, Y. Otani, S. Nakatsuji, \textit{Nat. Phys.} 13, 1085. %DOI: 10.1038/NPHYS4181
 
@@ -610,6 +624,8 @@ We are now proposing an experiment to show this effect: Applying the magnetic fi
 
 \bibitem{Dong:2025_a} M. Q. Dong, Z. X. Song, and Zhi-Xin Guo,
    Phys. Rev. B 111, 174447 (2025).
+
+\bibitem{Gas:2025_a} K. Gas et al., APL Mater. 13, 041105 (2025).
   
 \end{thebibliography}
 
