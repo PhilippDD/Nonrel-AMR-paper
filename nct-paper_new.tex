@@ -57,7 +57,7 @@ magnetic-order-induced symmetry lowering of conductivity tensor. While the AMR i
 
 \section{Introduction}
 
-Anisotropic magnetoresistance (AMR), first observed by William Thomson in 1857~\cite{Thomson:1857}, describes the dependence of resistivity in ferromagnetic materials such as cobalt and nickel on the direction of magnetization. Since then, AMR has remained an active subject of research~\cite{Ritzinger:2023}. In its conventional form, AMR is observed in ferromagnets (FMs), where it manifests as a two-fold (180$^\circ$-periodic) angular dependence of the resistivity on the angle $\varphi$ between the current and the magnetization direction~\cite{Alagoz:2015}:
+Anisotropic magnetoresistance (AMR), first observed by William Thomson in 1857~\cite{Thomson:1857}, describes the dependence of resistivity in ferromagnetic materials such as cobalt and nickel on the direction of magnetization. Since then, AMR has remained an active subject of research~\cite{Ritzinger:2023}. In its {\color{blue} prototypical} form, AMR is observed in {\color{blue} polycrystalline} ferromagnets (FMs), where it manifests as a two-fold (180$^\circ$-periodic) angular dependence of the resistivity on the angle $\varphi$ between the current and the magnetization direction~\cite{Alagoz:2015}:
 
 \begin{equation}
 	\frac{\Delta \rho}{\rho} \propto \cos 2\varphi
@@ -70,7 +70,7 @@ The conventional realization of AMR, as described in Eq.~\ref{eq_ncollAMR}, reli
 
 \subsection{Definition of AMR}
 
-More generally, AMR can be defined as the change in symmetry of the conductivity tensor $\sigma_{ij}$ due to magnetic ordering. This includes the standard formulation in Eq.~\ref{eq_ncollAMR}, but excludes anisotropies arising from purely orbital effects in non-magnetic systems or surface states in topological insulators~\cite{Ritzinger:2023}. Historically, AMR has also appeared under various names in the literature—such as spontaneous magnetoresistance anisotropy (SMA)—though these are not always consistently defined throughout literature~\cite{Ritzinger:2023}. The above definition offers a general framework encompassing these different terminologies.
+More generally, AMR can be defined as the change in symmetry of the conductivity tensor $\sigma_{ij}$ due to magnetic ordering. This includes the standard formulation in Eq.~\ref{eq_ncollAMR}, but excludes anisotropies {\color{blue} induced merely by Lorentz force} in non-magnetic systems, or surface states in topological insulators~\cite{Ritzinger:2023}. Historically, AMR has also appeared under various names in the literature—such as spontaneous magnetoresistance anisotropy (SMA)—though these are not always consistently defined throughout literature~\cite{Ritzinger:2023}. The above definition offers a general framework encompassing these different terminologies.
 
 We distinguish two commonly realized forms of AMR:
 
@@ -80,10 +80,7 @@ We distinguish two commonly realized forms of AMR:
 	\item \textit{Measurement of conductivity along different directions:} AMR can also arise when the conductivity is measured along two perpendicular directions for a fixed magnetic configuration $\varphi$. For instance, $\sigma_{xx}(\varphi) \neq \sigma_{yy}(\varphi)$. This anisotropy can either be a spontaneous effect~\cite{Bakonyi:2022} or induced by external manipulation of the magnetic configuration. In {\color{blue} simple FMs with a single MSL}, in the absence of SOC, no such anisotropy is induced under global spin rotation, since spin and lattice are decoupled~\cite{Gonzalez-Hernandez:2024}. However, in systems with multiple MSLs, even without SOC, magnetic ordering can break crystal symmetries and lead to anisotropic conductivity. This fact is illustrated in Fig.~\ref{fig:mnnsketch}
 \end{enumerate}
 
-{\color{red} Both approaches are often considered equivalent but we
-  will discuss situations where they are not. Role of SOI to be
-  discussed in Sec. I.D (simultaneous rotations of all mmoms cannot
-  change $\sigma_{ij}$ if SOI is absent). }
+{\color{blue} Both approaches are often considered equivalent but in states with multiple MSLs can lead to more complex scenarios. In absence of SOC, the real space and spin space are decoupled and thus, pure spin-rotations are symmetry operations of non-magnetic crystals. Hence, global spin rotations do not alter the symmetry of the conductivity tensor. As such, the case (1) \textit{rotation of magnetic order} is not considered here.}{\color{red} Role of SOI to be discussed in Sec. I.D (simultaneous rotations of all mmoms cannot change $\sigma_{ij}$ if SOI is absent). }
 
 \subsection{Categories of AMR}
 
@@ -106,13 +103,21 @@ This study builds on earlier findings (see Sec. 4.2.3 of Ref.~\cite{Ritzinger:20
 
 \subsection{Organization}
 
-In this work, we explore how AMR can arise in the absence of SOC by focusing on both intrinsic and extrinsic mechanisms: 
+In this work, we explore how AMR can arise in the absence of SOC by focusing on both intrinsic and extrinsic mechanisms: \\
 
-
-\begin{itemize}
-	\item \textbf{Intrinsic AMR:} We analyze how magnetic-order-induced anisotropy can manifest when scattering is disregared in three different ways: As a spontaneous effect in the collinear antiferromagnet MnN, due to manipulation of magnetic moments by an external magnetic field in idealized toy models and Mn$_3$Sn, and in the extreme case of a magnetic-field-dependent metal-insulator-transition (MIT) in EuTe$_2$. The spontaneous effect is investigated by an \textit{ab initio} calculation. We investigate the idealized toy models (e.g., kagome and triangular lattices) and Mn$_3$Sn using a tight-binding model and Boltzmann transport calculations. We assume isotropic scattering by applying the relaxation time approximation (RTA). We apply Neumann’s principle to determine which symmetries must be broken to realize AMR in the absence of SOC.
+{\color{blue} 
 	
-	\item \textbf{Extrinsic AMR:} We study AMR resulting from scattering on (aligned) magnetic impurities. We assume that typically unordered impurities are only weakly coupled to the lattice and can be aligned by a weak external magnetic field, which does not overcome the exchange interactions of the host material.	{\color{red}Explain-our-scenario...}
+\textbf{Intrinsic AMR}: There are at least three distinct mechanisms through which magnetic-order-induced anisotropy in the conductivity tensor can emerge without SOC, all in the absence of scattering:
+	
+\begin{enumerate}
+	\item Spontaneous anisotropy due to magnetic ordering, as realized in the collinear antiferromagnet MnN. This effect is analyzed using \textit{ab initio} calculations.
+	\item Field-induced manipulation of magnetic order, studied in two settings: (i) idealized toy models (e.g., kagome and triangular lattices), and (ii) the realistic non-collinear antiferromagnet Mn$_3$Sn. These cases are modeled via tight-binding Hamiltonians and Boltzmann transport theory, assuming isotropic scattering within the relaxation time approximation (RTA).
+	\item Metal-insulator transition (MIT) in EuTe$_2$, which exhibits large AMR values (up to 40,000\%) when measured along different crystallographic directions under applied magnetic fields. This marks an extreme form of intrinsic AMR: unlike the warping-induced anisotropy discussed in Sections ~\ref{sec_I_Kagome} and \ref{sec_I_mat}, here the Fermi surface vanishes entirely in the insulating phase, leading to a dramatic conductivity anisotropy.
+\end{enumerate}
+	
+In all cases, we apply Neumann’s principle to identify which symmetries must be broken to generate AMR in the absence of SOC. \\}
+
+\textbf{Extrinsic AMR:} We study AMR resulting from scattering on (aligned) magnetic impurities. We assume that typically unordered impurities are only weakly coupled to the lattice and can be aligned by a weak external magnetic field, which does not overcome the exchange interactions of the host material.	{\color{red}Explain-our-scenario...}
         Our motivation here is the off-stoichiometry of Mn$_{3+x}$X 
         non-collinear AFMs (typically, $x\approx 0.2$, see early work of 
 Kren et al. '75
@@ -120,8 +125,7 @@ Kren et al. '75
 	or other references in Sec. III.C). For $x=0$ there would be no
         such impurities but when $x>0$ they must be incorporated into the
         crystal somehow --- and likely not couple to the "underlying matrix"
-        (or at least, couple differently).
-\end{itemize}
+        (or at least, couple differently).\\
  
 
 This paper is organized as follows: In Sec.~\ref{sec_modelling}, we
@@ -132,7 +136,7 @@ will introduce the theoretical background and the methodology used in this work.
 
 \subsection{Formalism}
 
-We employ a simplistic tight-binding model which only consists of a hopping and an exchange term~\cite{Gonzalez-Hernandez:2024}:
+{\color{blue} Except for Sec.~\ref{sec_I_MnN}, we rely on a simple} tight-binding model which only consists of a hopping and an exchange term~\cite{Gonzalez-Hernandez:2024}:
 \begin{equation}
 	H = -\sum_{i, j}\sum_\alpha t_{ij} {\hat{c}_i^{\alpha\dagger}} \hat{c}^\alpha_j + J \sum_{i} \sum_{\alpha, \beta} (\vec{\sigma} \cdot \hat{m}_i)_{\alpha \beta} {\hat{c}_i^{\alpha\dagger}} \hat{c}^\beta_i 
 	\label{eq_sdmodel}
@@ -154,7 +158,38 @@ where $e$ is the elementary charge, $E_n(\vec{k})$ is the k-dependent Eigen ener
 	v_{n, i} = \frac{1}{\hbar} \frac{\partial E_n(\vec{k})}{\partial k_i}
 \end{equation}
 %
-The scattering rate is obtained by using Fermi's Golden Rule:
+{\color{blue} In case of the intrinsic AMR (Sec.~\ref{sec_I_Kagome} and \ref{sec_I_mat}), the scattering rate is obtained by choosing the relaxation-time approximation (RTA)~\cite{Vyborny:2009_a}:
+	
+\begin{equation}
+	\tau = \frac{1}{\hbar \Gamma_{n, \vec{k}}}
+\end{equation}
+where the relaxation time $\tau$ is constant and thus isotropic. This means that the anisotropy can only enter through the Fermi velocity contribution (or anisotropic plasma frequencies $\omega^p$). 
+We can simplify Eq.~\ref{eq_Boltzmann_1} to:
+%
+\begin{equation}
+	\sigma_{ii} \propto \int_ {FS} \sum_n   dk_F  v^2_{n,i}(\vec{k_F})
+	\propto (\omega_{ii}^p)^2
+	\label{eq_Boltzmann_2}
+\end{equation}
+%
+where $\vec{k_F}$ is the wave vector at the Fermi surface (Fermi
+vector).
+% what about anisotropic Fermi surfaces !?!?  then there's no single k_F
+We made use of the facts that we only consider the
+longitudinal conductivity $\sigma_{ii}$ in two dimensional systems,
+the delta distribution evaluates the integral over the first Brillouin
+zone at the Fermi surface (FS), and the scattering rate is obtained by
+RTA. $\sigma_{xx} \neq \sigma_{yy}$ if the integral of $\sum_n
+v^2_{n,x}$ and $\sum_n v^2_{n,y}$ over the Fermi circle are not the
+same. This is generally achieved by anisotropic Fermi surfaces,
+whereas the FS must neither be spherical (which is perfect isotropic)
+nor show the symmetry of the system, since the conductivity must
+reflect the crystal symmetry due to Neumann's
+principle~\cite{Ritzinger:2021} (e.g. a hexagonal FS in a hexagonal
+material is insufficient). \\
+
+
+In case of the extrinsic AMR (Sec.~\ref{sec_extrinsic}), we will be making use of Eq.~\ref{eq_Boltzmann_1} again, and the scattering rate is obtained by using Fermi's Golden Rule:}
 %
 \begin{multline}
 	\Gamma_{n, \vec{k}} = \frac{2 \pi}{\hbar} N_{scat} \sum_{n'}  \int_ {1st BZ} \frac{d^3k'}{(2\pi)^3} \delta(E_{n'}(\vec{k'}) - E_n(\vec{k})) \times \\ |M^{\vec{k}\vec{k'}}_{nn'} |^2 (1 - \cos \theta_{vv'})
@@ -180,7 +215,7 @@ At the core of this analysis lies Neumann’s principle, which states that a ten
 \section{Intrinsic AMR}
 \label{sec_intrinsic}
 
-In this section, we discuss intrinsic AMR. Subsection~\ref{sec_I_MnN} focuses on MnN as an example of spontaneous AMR in a collinear antiferromagnet. In subsection~\ref{sec_I_Kagome}, we investigate various magnetic configurations—both collinear and non-collinear, compensated and non-compensated—on kagome and triangular toy lattices. Using a tight-binding model and the Boltzmann formalism in the relaxation-time approximation (RTA), we analyze Fermi surface anisotropy and conductivity. We also examine the real-space symmetries underlying these models. In subsection~\ref{sec_I_mat}, we apply the same framework to the real material Mn$_3$Sn. Finally, subsection~\ref{sec_I_EuTe2} explores how large intrinsic AMR can arise near a magnetic-field-induced metal-insulator transition in EuTe$_2$.
+In this section, we discuss intrinsic AMR. Subsection~\ref{sec_I_MnN} focuses on MnN as an example of spontaneous AMR in a collinear antiferromagnet. In subsection~\ref{sec_I_Kagome}, we investigate various magnetic configurations—both collinear and non-collinear, compensated and non-compensated—on kagome and triangular toy lattices. Using a tight-binding model and the Boltzmann formalism in the RTA, we analyze Fermi surface anisotropy and conductivity. We also examine the real-space symmetries underlying these models. In subsection~\ref{sec_I_mat}, we apply the same framework to the real material Mn$_3$Sn. 
 
 \subsection{MnN: Example of AMR as a Spontaneous Effect}
 \label{sec_I_MnN}
@@ -192,10 +227,10 @@ In this section, we discuss intrinsic AMR. Subsection~\ref{sec_I_MnN} focuses on
 	\label{fig:mnnsketch}
 \end{figure}
 
-Since magnetic order is a spontaneous effect, realizing AMR due to the measurement of conductivity along different directions can also make it a spontaneous effect. This is illustrated in Fig.~\ref{fig:mnnsketch}: In a cubic crystal without magnetic order, the conductivity remains isotropic $\sigma_{xx}=\sigma_{yy}=\sigma_{zz}$. A FM magnetic order ( in a cubic crystal still exhibits isotropic conductivity in absence of SOC, since global spin rotations do not alter the symmetry of the conductivity tensor. If more MSLs are considered, the conductivity can become anisotropic if the magnetic order breaks the $90^\circ$ real-space rotational symmetry (see (Fig.~\ref{fig:mnnsketch}c). This is the case of cubic MnN, which has a rock-salt structure (see ~\ref{fig:mnnsketch}e): Without magnetic order, the conductivity would remain isotropic. However, the cation (manganese) magnetic moments, prefer an A-type AFM order and in choosing
+Since magnetic order is a spontaneous effect, realizing AMR due to the measurement of conductivity along different directions can also make it a spontaneous effect. This is illustrated in Fig.~\ref{fig:mnnsketch}: In a cubic crystal without magnetic order, the conductivity remains isotropic $\sigma_{xx}=\sigma_{yy}=\sigma_{zz}$. A {\color{blue} sufficiently simple} FM magnetic order ( in a cubic crystal still exhibits isotropic conductivity in absence of SOC, since global spin rotations do not alter the symmetry of the conductivity tensor. If more MSLs are considered, the conductivity can become anisotropic if the magnetic order breaks the $90^\circ$ real-space rotational symmetry (see (Fig.~\ref{fig:mnnsketch}c). This is the case of cubic MnN, which has a rock-salt structure (see ~\ref{fig:mnnsketch}e): Without magnetic order, the conductivity would remain isotropic. However, the cation (manganese) magnetic moments, prefer an A-type AFM order and in choosing
 the direction of the ferromagnetic planes (e.g. $xy$-planes),
 anisotropy arises (in that case, $\sigma_{zz}$ is different from
-$\sigma_{xx}=\sigma_{yy}$)~\cite{Granville:2005}. This effect in itself is non-relativistic in nature.
+$\sigma_{xx}=\sigma_{yy}$)~\cite{Granville:2005}. This effect in itself is non-relativistic in nature, {\color{blue} since the magnetic order breaks crystalline symmetries even without SOC, which creates AMR}. \\
 
 Calculations based on density functional theory (DFT as detailed in Appendix A, $a=b=c$), show that $\hbar\omega^p_{xx}=5.87$~eV and $\hbar\omega^p_{zz}=5.23$~eV so that, assuming isotropic scattering, $\sigma_{xx}/\sigma_{zz}-1\approx 26$~\% according to~ Eq. \ref{eq_Boltzmann_2}.
 
@@ -211,47 +246,15 @@ Magnetic order leads to a distortion of lattice but this effect has only minor i
 	\label{fig:kagome_triangular}
 \end{figure}
 
-We are choosing the RTA in the Boltzmann formalism~\cite{Vyborny:2009_a} and replace Eq.~\ref{eq_FermiGoldenRule_1} by:
-\begin{equation}
-	\tau = \frac{1}{\hbar \Gamma_{n, \vec{k}}}
-\end{equation}
-where the relaxation time $\tau$ is constant and thus isotropic. This
-means that the anisotropy can only enter through the Fermi velocity
-contribution (or anisotropic plasma frequencies $\omega^p$). We can simplify Eq.~\ref{eq_Boltzmann_1} to:
-%
-\begin{equation}
-	\sigma_{ii} \propto \int_ {FS} \sum_n   dk_F  v^2_{n,i}(\vec{k_F})
-	\propto (\omega_{ii}^p)^2
-	\label{eq_Boltzmann_2}
-\end{equation}
-%
-where $\vec{k_F}$ is the wave vector at the Fermi surface (Fermi
-vector).
-% what about anisotropic Fermi surfaces !?!?  then there's no single k_F
-We made use of the facts that we only consider the
-longitudinal conductivity $\sigma_{ii}$ in two dimensional systems,
-the delta distribution evaluates the integral over the first Brillouin
-zone at the Fermi surface (FS), and the scattering rate is obtained by
-RTA. $\sigma_{xx} \neq \sigma_{yy}$ if the integral of $\sum_n
-v^2_{n,x}$ and $\sum_n v^2_{n,y}$ over the Fermi circle are not the
-same. This is generally achieved by anisotropic Fermi surfaces,
-whereas the FS must neither be spherical (which is perfect isotropic)
-nor show the symmetry of the system, since the conductivity must
-reflect the crystal symmetry due to Neumann's
-principle~\cite{Ritzinger:2021} (e.g. a hexagonal FS in a hexagonal
-material is insufficient). \\
-
 \begin{figure}
 	\centering
 	\includegraphics[width=1\linewidth]{img/overview_Kagome_phase1a}
-	\caption{Results for two compensated magnetic configuration on the kagome lattice. (a) The band structure is spin-split. Permutation of magnetic moments does not change the band structure. (b) The Fermi surface at $E_F = 0$ (as indicated by the dashed line in (a)) is represented by the blue dots. The orange circle is shown for illustration. Since the FS and the circle overlap, this system has an isotropic FS and does not show intrinsic AMR. (c), (e) The magnetic unit cells of two compensated magnetic configurations and (d), (f) their respective k-space spin texture at the same Fermi level. While the band structure and Fermi surface is unaffected by permutation within the magnetic unit cell, the spin texture changes. The spin texture is entirely in the \textit{xy}-plane. The $\hat{z}$-component (not shown) of the spin texture is zero.}
+	\caption{Results for two compensated magnetic configuration on the kagome lattice. (a) The band structure is spin-split. Permutation, {\color{blue} which corresponds to a $180^\circ$ global spin rotation around the \textit{y}-axis,} does not change the band structure. (b) The Fermi surface at $E_F = 0$ (as indicated by the dashed line in (a)) is represented by the blue dots. The orange circle is shown for illustration. Since the FS and the circle overlap, this system has an isotropic FS and does not show intrinsic AMR. (c), (e) The magnetic unit cells of two compensated magnetic configurations and (d), (f) their respective k-space spin texture at the same Fermi level. While the band structure and Fermi surface is unaffected by permutation within the magnetic unit cell, the spin texture changes. The spin texture is entirely in the \textit{xy}-plane. The $\hat{z}$-component (not shown) of the spin texture is zero.}
 	\label{fig:totalkagomephase1a}
 \end{figure}
 
 
-We start by analyzing various magnetic configurations on a kagome and triangular lattice. First, we assume a non-collinear (no SSA), coplanar ($m_{z,i} = 0, \forall i$) and fully compensated ($\sum_i \vec{m}_i = 0$) magnetic order as indicated in Fig.~\ref{fig:kagome_triangular}. This can be realized by considering a simple next-neighbor (NN) Heisenberg exchange term $\sum_{<ij>} -J_{ij} \vec{S}_i \vec{S}_j$ with $J_{ij} = -1$. On a kagome and a triangular lattice, the non-collinear magnetic order will form to avoid frustration. In a first step, we test configurations that are non-collinear and fully compensated, which leaves us with two possibilities: First, a global spin rotation and second, a permutation of moments as indicated in Figs.~\ref{fig:totalkagomephase1a} (c) and (e). The global spin rotation does not show any effect, because the lack of SOC. The permutation, while changing the spin texture (see ~\ref{fig:totalkagomephase1a} (d) and (f)), keeps the band structure (BS) and Fermi surface (FS) unchanged. Intrinsic AMR cannot be found. 
-{\color{red}Even the 'permutation' is in fact a global spin rotation
-  (around $y$, right?)}
+We start by analyzing various magnetic configurations on a kagome and triangular lattice. First, we assume a non-collinear (no SSA), coplanar ($m_{z,i} = 0, \forall i$) and fully compensated ($\sum_i \vec{m}_i = 0$) magnetic order as indicated in Fig.~\ref{fig:kagome_triangular}{\color{blue}, as such magnetic order can be found in many materials~\cite{Siddiqui:2020}}. This can be realized by considering a simple next-neighbor (NN) Heisenberg exchange term $\sum_{<ij>} -J_{ij} \vec{S}_i \vec{S}_j$ with $J_{ij} = -1$. On a kagome and a triangular lattice, the non-collinear magnetic order will form to avoid frustration. {\color{blue} As mentioned before, global spin rotations do not alter the symmetry of the conductivity tensor. This is illustrated in Fig.~\ref{fig:totalkagomephase1a} (d) and (f): While the band structure (BS) and Fermi surface (FS) remain unchanged, the spin texture is rotated by $180^\circ$ around the \textit{y}-axis. This is, because the two corresponding magnetic configurations (see Fig.~\ref{fig:totalkagomephase1a}(c) and (e)) are permutation of each other, which corresponds to a global spin rotation of $180^\circ$ around the \textit{y}-axis. Hence,} intrinsic AMR cannot be found. 
 
 
 \begin{figure}
@@ -262,11 +265,11 @@ We start by analyzing various magnetic configurations on a kagome and triangular
 \end{figure}
 
 
-In the next step, we are individually rotating the magnetic moments
-within the $xy$-plane as shown in Fig.~\ref{fig:kagomerotation}: While moment $A$ remains fix, moment $B$ is rotated counterclockwise and moment $C$ is rotated clockwise, illustrating the effect of a magnetic field in the negative $-\hat{y}$-direction. Moments $B$ and $C$ are rotated by the same angle $\alpha$. Using this notion, we would like to draw the attention to a few special cases: $\alpha = 0^\circ (120^\circ)$ corresponds to the compensated states shown in Fig.~\ref{fig:totalkagomephase1a} (c) (Fig.~\ref{fig:totalkagomephase1a} (e)), $\alpha = 240^\circ$ corresponds to the ferromagnetic states with magnetization along $+\hat{y}$ and $\alpha = 60^\circ$ corresponds to a collinear ferrimagnetic state. For all $\alpha \neq 0^\circ, 120^\circ, 240^\circ$ a partially compensated in-plane magnetization, or weak ferromagnetism (WF), exists. 
+Next, we are individually rotating the magnetic moments
+within the $xy$-plane as shown in Fig.~\ref{fig:kagomerotation}: While moment $A$ remains fix, moment $B$ is rotated counterclockwise and moment $C$ is rotated clockwise, illustrating the effect of a magnetic field in the negative $-\hat{y}$-direction. Moments $B$ and $C$ are rotated by the same angle $\alpha$. Using this notion, we would like to draw the attention to a few special cases: $\alpha = 0^\circ (120^\circ)$ corresponds to the compensated states shown in Fig.~\ref{fig:totalkagomephase1a} (c) (Fig.~\ref{fig:totalkagomephase1a} (e)), $\alpha = 240^\circ$ corresponds to the ferromagnetic states with magnetization along $+\hat{y}$ and $\alpha = 60^\circ$ corresponds to a collinear ferrimagnetic state. For all $\alpha \neq 0^\circ, 120^\circ, 240^\circ$ a partially compensated in-plane magnetization {\color{blue} (PCM)} exists. 
 
-We found an anisotropic FS (see Fig.~\ref{fig:asymmFS} for the example of $\alpha = 36^\circ$) and thus, intrinsic AMR for all WF cases. The isotropic cases are the fully compensated and the FM case. Applying the \textit{Symmetr} code~\cite{Symmetr} to get the generators of the real-space symmetries, we find that the WF cases break both a $60^\circ$ and $120^\circ$ rotational symmetries in the \textit{xy}-plane, while the fully compensated and the FM case, conserve at least one of them. 
-Different to our previous anticipation~\cite{Ritzinger:2023}, the anisotropy in the collinear ferrimagnetic case ($\alpha = 60^\circ$) indicates that the non-collinear magnetic order is not needed to generate the effect, if the real-space symmetry is low enough. The magnetization in the WF cases is likely not sufficient to be a SSA, as mentioned before, but might play a role as a "symmetry breaking parameter". Similar results were observed in MnTe, where a besides the collinear antiferromagnetic ordering, a \textit{weak ferromagneticlike signal} (WFL) was observed. The AHE in MnTe was not attributed due to the WFL, however the AHE is due to an imbalance of magnetic domains with Hall contributions that cancel out. This imbalance causes the WFL and thus the WFL serves as measure of this imbalance~\cite{Kluczyk:2024}, similar to our magnetization serving as measure of the symmetry breaking.
+We found an anisotropic FS (see Fig.~\ref{fig:asymmFS} for the example of $\alpha = 36^\circ$) and thus, intrinsic AMR for all {\color{blue} PCM} cases. The isotropic cases are the fully compensated and the FM case. Applying the \textit{Symmetr} code~\cite{Symmetr} to get the generators of the real-space symmetries, we find that the WF cases break both a $60^\circ$ and $120^\circ$ rotational symmetries in the \textit{xy}-plane, while the fully compensated and the FM case, conserve at least one of them. 
+Different to our previous anticipation~\cite{Ritzinger:2023}, the anisotropy in the collinear ferrimagnetic case ($\alpha = 60^\circ$) indicates that the non-collinear magnetic order is not needed to generate the effect, if the real-space symmetry is low enough {\color{blue} as already shown in MnN in the previous section. The AMR in the PCM cases is not due to existence of a net moment, but because of symmetry breaking, which could even exist in absence of a net moment. Similarily, in MnTe, despite the existence of a \textit{weak ferromagneticlike signal} (WFL), the AHE was not attributed to the latter, } however the AHE is due to an imbalance of magnetic domains with Hall contributions that cancel out. This imbalance causes the WFL and thus the WFL serves as measure of this imbalance~\cite{Kluczyk:2024}, similar to {\color{blue} the magnetization in the PCM cases serves} as measure of the symmetry breaking.
 
 \begin{figure}
 	\centering
@@ -290,7 +293,7 @@ magnetic anisotropy can play important role.
 	\label{fig:fs-rotation}
 \end{figure}
 
-Now we are turning towards the triangular lattice (see Fig.~\ref{fig:kagome_triangular} (b)). Here, the same operations were applied as for the kagome lattice. In either the fully compensated states, the FM state and the non-compensated WF cases, no anisotropic FS and thus, no intrinsi AMR was found. Analyzing the real-space symmetries using \textit{Symmetr}~\cite{Symmetr}, we find that all investigated cases are conserving the $60^\circ$ or $120^\circ$ rotational symmetry. 
+Now we are turning towards the triangular lattice (see Fig.~\ref{fig:kagome_triangular} (b)). Here, the same operations were applied as for the kagome lattice. In either the fully compensated states, the FM state and the {\color{blue} partially compensated PCM} cases, no anisotropic FS and thus, no intrinsi AMR was found. Analyzing the real-space symmetries using \textit{Symmetr}~\cite{Symmetr}, we find that all investigated cases are conserving the $60^\circ$ or $120^\circ$ rotational symmetry. 
 
 In summary, we have investigated various magnetic configurations on a kagome and a triangular lattice. The configurations that break the $60^\circ$ and $120^\circ$ real-space rotational symmetry in the \textit{xy}-plane exhibit an anisotropic FS and thus, AMR. These are the non-compensated configurations in the kagome lattice (both non-collinear and collinear ferrimagnetic), yet none of the investigated triangular configuration. This underlines that, while spin and lattice are largely decoupled~\cite{Gonzalez-Hernandez:2024} in absence of SOC, the magnetic order in general does can change the symmetry of the conductivity tensor.
 
@@ -302,8 +305,7 @@ We now wish to apply the insights gained in previous Subsection to
 a realistic material system. Kagome lattice occurs for example in
 Mn$_3$Sn which is a well-explored non-collinear antiferromagnet that, even
 if studied for more than 60 years~\cite{Cable:1993_a}  %PRB 48, 6159, ref. 6 !!
-has attracted considerable attention more recently {\color{red}(cite $>1$ work
-about AHE, spintronics etc.)}  Depending on exact stoichiometry (which
+has attracted considerable attention more recently~\cite{Manna:2018, Chen:2021, Nakatsuji:2015}.  Depending on exact stoichiometry (which
 needs to be tuned because of reasons related to proper crystal-growth),
 some Mn atoms can either be incorprorated into substitutional positions
 or substituted for Sn atoms~\cite{Gas:2025_a}.
@@ -318,9 +320,9 @@ but here, we will assume exact 3:1 stoichiometry. The structure for Mn$_3$Sn is 
 %We employ a simultaneous analysis utilizing a tight-binding model and the Boltzmann formalism in RTA as in the previous section. The structure for Mn$_3$Sn is taken from the MAGNDATA database~\cite{Magndata:Mn3Sn}. 
 We will start by considering the fully compensated case and proceed by tilting the magnetic moments in a fashion that simulates an external magnetic field in the \textit{y}-direction.
 % (see Fig.~\ref{fig:mn3sn_36deg_FS} (a)), similar to Fig.~\ref{fig:kagomerotation}. As a result, similar to the previous case of the fully compensated kagome lattice, the fully compensated Mn$_3$Sn shows an isotropic FS and does not exhibit AMR. The tilted case shows a small ellipsoid warping of the otherwise isotropic FS (as can be seen by the two-fold symmery in Fig.~\ref{fig:mn3sn_36deg_FS} (c)) and exhibits thus a small AMR. 
-Employing the symmetry analysis using the \textit{Symmetr} code~\cite{Symmetr}, we find that the fully compensated Mn$_3$Sn configuration exhibits $60^\circ$ and $120^\circ$ real-space rotation symmetry, while the tilted configuration breaks both. 
+Employing the symmetry analysis using the \textit{Symmetr} code~\cite{Symmetr}, we find that the fully compensated Mn$_3$Sn configuration exhibits $60^\circ$ and $120^\circ$ real-space rotation symmetry, while the tilted configurations {\color{blue} (see Fig.~\ref{fig:fs-rotation})} break both.
 
-While we have treated Mn$_3$Sn as a fully compensated coplanar AFM, there are studies about a weak ferromagnetic moment occur in the material~\cite{Tomiyashi:1982}. This also opens a debate about how the magnetic field couples to the magnetic moments: While we suggest a tilting of the magnetic moments towards the magnetic field, it is also possible that the WF moment couples to the field and rotates the entire structure simulatenously, as suggested by some studies~\cite{Wu:2023}. However, as emphasized before, a global spin rotation does not exhibit AMR due to the absence of SOC. 
+While we have treated Mn$_3$Sn as a fully compensated coplanar AFM, there are studies about a weak ferromagnetic (WF) moment occur in the material~\cite{Tomiyashi:1982}. {\color{blue} This raises the question of how the magnetic field couples to the magnetic moments in Mn$_3$Sn. While our model assumes that the field induces a tilt of individual magnetic moments—leading to a symmetry-breaking reconfiguration—it is also possible that the WF moment couples to the field and causes a coherent rotation of the entire spin structure, as suggested in Ref.~\cite{Wu:2023}. In practice, when the exchange interaction is strong—as is typically the case in such systems—the most realistic scenario involves a global rotation of the magnetic order accompanied by only small moment tilts. However, as emphasized earlier, a global spin rotation alone does not generate AMR in the absence of SOC, since spin and lattice remain decoupled. }
 
 In summary, we have analyzed the promising non-collinear AFM Mn$_3$Sn and showed that if the $60^\circ$ and $120^\circ$ real-space rotation symmetries are broken, an anisotropic FS and AMR is induced (as claimed by Sharma et al.~[\onlinecite{Sharma:2023_a}]). This is consistent with our previous findings on a kagome toy model.
 
@@ -331,14 +333,14 @@ In summary, we have analyzed the promising non-collinear AFM Mn$_3$Sn and showed
 \label{sec_extrinsic}
 
 In this section, we investigate the extrinsic (scattering-dependent) AMR. We will revert to the full treatment of scattering via Eq.~\ref{eq_FermiGoldenRule_1}, assuming magnetic impurities pointing in $\vec{i}$-direction described by the transition matrix matrix $\hat{M} = \hat{S}_i \otimes \hat{1}_{NxN}$, where $\hat{S}_i$ is the $i$-th Pauli spin matrix and $\hat{1}_{NxN}$ is the $N$-dimensional identity matrix, where $N$ is the number of atoms in the unit cell. For simplicity reasons, we will restrict ourselves to impurities either pointing in \textit{x}-direction, as illustrated in Fig.~\ref{fig:kagome21}, which shall be abbreviated as \textit{x}-impurities, and impurities in \textit{y}-direction, denoted as \textit{y}-impurities. It shall be noted that these impurities, which are ferromagnetically aligned in a single direction, introduce a symmetry breaking to the system. This might seem counterintuitive at first, since impurities in a real material would likely be nearly statistically equal distributed among all directions of space. We justify this ferromagnetic alignment by assuming that the magnetic impurities are only weakly coupled to the crystal and can be aligned by a external magnetic field, which is not sufficient to overcome the exchange interaction and thus, to manipulate the other magnetic moments.
+
 \begin{figure}
 	\centering
-	\includegraphics[width=0.8\linewidth]{img/Kagome_21}
-	\caption{Illustration of magnetic impurities in a kagome lattice;
-        {\color{red} figure should be modified}. In Mn$_{3+x}$Sn$_{1-x}$, this
-        could correspond to substitutional impurities.}
+	\includegraphics[width=\linewidth]{img/Kagome_impurity}
+	\caption{Illustration of unaligned magnetic impurities (black) in a kagome lattice. In Mn$_{3+x}$Sn$_{1-x}$, this could correspond to substitutional impurities.}
 	\label{fig:kagome21}
 \end{figure}
+
 
 As previously in Sec.~\ref{sec_I_Kagome}, we investigate both a kagome and a triangular lattice. We then calculate the conductivities $\sigma_{xx}$ and $\sigma_{yy}$ using the Eqs.~\ref{eq_Boltzmann_1}-\ref{eq_transmatrix}. The results are summarized in table~\ref{T_extrinsic}.\\
 
@@ -348,18 +350,18 @@ As previously in Sec.~\ref{sec_I_Kagome}, we investigate both a kagome and a tri
 		\hline 
 		\textbf{Kagome (comp.)} & \textbf{\textit{x}} & \textbf{Yes} & \textbf{\textit{xy}} \\
 		\textbf{Kagome (comp.)} & \textbf{\textit{y}} & \textbf{Yes} & \textbf{\textit{xy}} \\
-		\textbf{Kagome (non-comp.)} & \textbf{\textit{x}} & \textbf{Yes} & \textbf{\textit{xy}} \\
-		\textbf{Kagome (non-comp.)} & \textbf{\textit{y}} & \textbf{Yes} & \textbf{\textit{xy}} \\
+		\textbf{Kagome ({\color{blue} PCM})} & \textbf{\textit{x}} & \textbf{Yes} & \textbf{\textit{xy}} \\
+		\textbf{Kagome ({\color{blue} PCM})} & \textbf{\textit{y}} & \textbf{Yes} & \textbf{\textit{xy}} \\
 		\hline 
 		Triangular (comp.) & \textit{y} & divergent & \textit{z} \\
-		Triangular (non-comp.) & \textit{y} & No & \textit{zy} \\
+		Triangular ({\color{blue} PCM}) & \textit{y} & No & \textit{zy} \\
 	\end{tabular}
-	\caption{Results of the extrinsic AMR calculations for kagome and triangular lattice in both compensated and non-compensated magnetic configurations. The impurities as introduced in the text. "Yes" means that AMR was found, hence $\sigma_{xx} \neq \sigma_{yy}$ while for "No" an isotropic behavior was identified, where $\sigma_{xx} = \sigma_{yy}$. The value of the AMR ratio is not stated here, as our model is qualitative. "Divergent" means that both $\sigma_{xx}$ and $\sigma_{yy}$ are divergent or infinite and AMR cannot be defined, originating from a suppressed scattering rate $\Gamma \rightarrow 0$. "Spin texture" indicates the active components of the k-space spin texture at the FS. \textit{xy} indicates that all the spins are within the \textit{xy}-plane and thus $\hat{s}_z = 0$ for all spins. The spin texture serves as a good intuition for whether a certain impurity would lead to suppressed scattering.}
+	\caption{Results of the extrinsic AMR calculations for kagome and triangular lattice in both compensated and partially compensated magnetic configurations. The impurities as introduced in the text. "Yes" means that AMR was found, hence $\sigma_{xx} \neq \sigma_{yy}$ while for "No" an isotropic behavior was identified, where $\sigma_{xx} = \sigma_{yy}$. The value of the AMR ratio is not stated here, as our model is qualitative. "Divergent" means that both $\sigma_{xx}$ and $\sigma_{yy}$ are divergent or infinite and AMR cannot be defined, originating from a suppressed scattering rate $\Gamma \rightarrow 0$. "Spin texture" indicates the active components of the k-space spin texture at the FS. \textit{xy} indicates that all the spins are within the \textit{xy}-plane and thus $\hat{s}_z = 0$ for all spins. The spin texture serves as a good intuition for whether a certain impurity would lead to suppressed scattering.}
 	\label{T_extrinsic}
 \end{table}
 
 
-In the kagome case, for both the \textit{x}- and the \textit{y}-impurity in both the compensated and non-compensated (WF non-collinear) cases, non-zero extrinsic AMR was found. In the triangular case, no extrinsic AMR has been identified at all. In some cases the results in Tab.~\ref{T_extrinsic} are denoted by \textit{divergent}, which means that both $\sigma_{xx}$ and $\sigma_{yy}$ are divergent or infinite. This originates from a suppressed scattering due to that impurity $\Gamma \rightarrow 0$ and the fact that the inverse scattering rate is part of the Boltzmann equation Eq.~\ref{eq_Boltzmann_1}. Since our model is very simplistic, it is, however, not expected that in a real system the conductivity would diverge.
+In the kagome case, for both the \textit{x}- and the \textit{y}-impurity in both the compensated and {\color{blue} partially compensated (PCM} non-collinear) cases, non-zero extrinsic AMR was found. In the triangular case, no extrinsic AMR has been identified at all. In some cases the results in Tab.~\ref{T_extrinsic} are denoted by \textit{divergent}, which means that both $\sigma_{xx}$ and $\sigma_{yy}$ are divergent or infinite. This originates from a suppressed scattering due to that impurity $\Gamma \rightarrow 0$ and the fact that the inverse scattering rate is part of the Boltzmann equation Eq.~\ref{eq_Boltzmann_1}. Since our model is very simplistic, it is, however, not expected that in a real system the conductivity would diverge.
 
 %%%% moved to App. D
 %\begin{figure}
@@ -396,7 +398,7 @@ where $\psi_k$ is the wave function at $\vec{k}$. The scattering rate $\Gamma$ a
 	\label{eq_FermiGoldenRule_2}
 \end{equation}
 
-where in Eq.~\ref{eq_FermiGoldenRule_2} we ignored $\cos \theta_{vv'}$ and the prefactors, and the delta distribution was evaluated. The integration over $k_z$ does only contribute in a prefactor the system we are looking at is two dimensional. The resulting integral in Eq.~\ref{eq_FermiGoldenRule_2} is a one dimensional integral over the Fermi circle. As can be seen the scattering rate for a magnetic impurity in direction $i$ (Eq.~\ref{eq_FermiGoldenRule_2}) and the $i$-th component of the spin texture are looking very similar, except that the integral over the Fermi surface adds some level of complexity to it. Despite these small differences, it allows us to to explain a part of the results we find in Tab.~\ref{T_extrinsic}. The spin texture of the triangular compensatd pointing in the positive \textit{z}-direction leading to a suppressed scattering for both \textit{x}- and \textit{y}-impurities. In the triangular non-compensated (WF) case, the spin texture acquires some \textit{y}-component as well. Introducing a \textit{y}-impurity will now not lead to a suppressed scattering anymore, yet still not exhbit extrinsic AMR.
+where in Eq.~\ref{eq_FermiGoldenRule_2} we ignored $\cos \theta_{vv'}$ and the prefactors, and the delta distribution was evaluated. The integration over $k_z$ does only contribute in a prefactor the system we are looking at is two dimensional. The resulting integral in Eq.~\ref{eq_FermiGoldenRule_2} is a one dimensional integral over the Fermi circle. As can be seen the scattering rate for a magnetic impurity in direction $i$ (Eq.~\ref{eq_FermiGoldenRule_2}) and the $i$-th component of the spin texture are looking very similar, except that the integral over the Fermi surface adds some level of complexity to it. Despite these small differences, it allows us to to explain a part of the results we find in Tab.~\ref{T_extrinsic}. The spin texture of the triangular compensatd pointing in the positive \textit{z}-direction leading to a suppressed scattering for both \textit{x}- and \textit{y}-impurities. In the triangular {\color{blue} PCM} case, the spin texture acquires some \textit{y}-component as well. Introducing a \textit{y}-impurity will now not lead to a suppressed scattering anymore, yet still not exhbit extrinsic AMR.
 
 In the last part of this section, we investigate at the crystalline AMR, which refers to the anisotropy of conductivity created by the crystalline symmetry. Here, it can be defined as:
 
@@ -467,11 +469,8 @@ inconsistency about Fig.~\ref{fig:combinedspintexture}: is panel (b) from
 a triangular or square FM lattice? Fig.~\ref{fig:mn3sn_36deg_FS} supports
 the conclusions of Sec.~III.C but it would have to be much improved.
 
-\subsection{AMR due to Metal-Insulator Transition: EuTe$_2$}
-\label{sec_I_EuTe2}
-
-The antiferromagnetic EuTe$_2$ undergoes a MIT, where the critical field and temperature are different in the \textit{ab}-plane than along the \textit{c}-axis. Measuring $\sigma_{xx}$ while rotating the magnetic field can then cause AMR of up to $40000\%$ due to the insuing MIT~\cite{Yang:2021}. This marks an extreme case of the before discussed case of intrinsic AMR: While in sections~\ref{sec_I_Kagome} and \ref{sec_I_mat}, the warping of the FS was responsible for the AMR, here the FS vanishes in the insulating phase.
-
+%\subsection{AMR due to Metal-Insulator Transition: EuTe$_2$}
+%\label{sec_I_EuTe2}
 
 \begin{figure}
 	\centering
@@ -628,6 +627,8 @@ We are now proposing an experiment to show this effect: Applying the magnetic fi
    Phys. Rev. B 111, 174447 (2025).
 
 \bibitem{Gas:2025_a} K. Gas et al., APL Mater. 13, 041105 (2025).
+  
+\bibitem{Siddiqui:2020} Saima A. Siddiqui; Joseph Sklenar; Kisung Kang; Matthew J. Gilbert; André Schleife, Nadya Mason; Axel Hoffmann,  Metallic antiferromagnet , J. Appl. Phys. 128, 040904 (2020), doi.org/10.1063/5.0009445
   
 \end{thebibliography}
 
