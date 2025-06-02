@@ -40,7 +40,7 @@
 Cukrovarnick\'a 10, CZ-16253 Praha 6, Czech Republic}
 
 
-\date{Jun01, 2025}
+\date{Jun02, 2025}
 
 \begin{abstract}
 Anisotropic magnetoresistance (AMR) is a manifestation of
@@ -57,20 +57,20 @@ magnetic-order-induced symmetry lowering of conductivity tensor. While the AMR i
 
 \section{Introduction}
 
-Anisotropic magnetoresistance (AMR), first observed by William Thomson in 1857~\cite{Thomson:1857}, describes the dependence of resistivity in ferromagnetic materials such as cobalt and nickel on the direction of magnetization. Since then, AMR has remained an active subject of research~\cite{Ritzinger:2023}. In its {\color{blue} prototypical} form, AMR is observed in {\color{blue} polycrystalline} ferromagnets (FMs), where it manifests as a two-fold (180$^\circ$-periodic) angular dependence of the resistivity on the angle $\varphi$ between the current and the magnetization direction~\cite{Alagoz:2015}:
-
+Anisotropic magnetoresistance (AMR), first observed by William Thomson in 1857~\cite{Thomson:1857}, describes the dependence of resistivity in ferromagnetic materials such as cobalt and nickel on the direction of magnetization. Since then, AMR has remained an active subject of research~\cite{Ritzinger:2023}. In its {\color{blue} prototypical} form, AMR is observed in {\color{blue} polycrystalline} ferromagnets (FMs), where it manifests as a two-fold (180$^\circ$-periodic) angular dependence of resistivity $\rho$ on the angle $\varphi$ between the current and the magnetization direction~\cite{Alagoz:2015}:
+%
 \begin{equation}
 	\frac{\Delta \rho}{\rho} \propto \cos 2\varphi
 	\label{eq_ncollAMR}
 \end{equation}
-
+%
 This implies that, for example, if the magnetization in an otherwise isotropic medium ($\sigma_{xx} = \sigma_{yy}$ above the magnetic ordering temperature) is oriented along the $x$-direction, the conductivity tensor $\boldsymbol{\sigma} = \boldsymbol{\rho}^{-1}$ becomes anisotropic with $\sigma_{xx} \neq \sigma_{yy}$.
 
-The conventional realization of AMR, as described in Eq.~\ref{eq_ncollAMR}, relies on spin-orbit coupling (SOC), which couples the spin of electrons to the crystal lattice. However, this description is not exhaustive. In this work, we demonstrate that similar symmetry-lowering effects in the conductivity tensor can also arise in the absence of SOC, provided the magnetic order involves multiple magnetic sublattices (MSLs), including both collinear and non-collinear magnetically ordered systems.
+The conventional understanding of AMR, ({\color{red}cite the '24 MR review}) in line with Eq.~\ref{eq_ncollAMR}, relies on spin-orbit coupling (SOC), which couples the spin of electrons to the crystal lattice. However, this description is not exhaustive. In this work, we demonstrate that similar symmetry-lowering effects in the conductivity tensor can also arise in the absence of SOC, provided the magnetic order involves multiple magnetic sublattices (MSLs), including both collinear and non-collinear magnetically ordered systems.
 
 \subsection{Definition of AMR}
 
-More generally, AMR can be defined as the change in symmetry of the conductivity tensor $\sigma_{ij}$ due to magnetic ordering. This includes the standard formulation in Eq.~\ref{eq_ncollAMR}, but excludes anisotropies {\color{blue} induced merely by Lorentz force} in non-magnetic systems, or surface states in topological insulators~\cite{Ritzinger:2023}. Historically, AMR has also appeared under various names in the literature—such as spontaneous magnetoresistance anisotropy (SMA)—though these are not always consistently defined throughout literature~\cite{Ritzinger:2023}. The above definition offers a general framework encompassing these different terminologies.
+More generally, AMR can be defined as the change in symmetry of the conductivity tensor $\sigma_{ij}$ due to magnetic ordering. This includes the standard formulation in Eq.~\ref{eq_ncollAMR}, but excludes anisotropy of orbital (induced merely by Lorentz force) magnetoresistance in non-magnetic systems, or surface states in topological insulators~\cite{Ritzinger:2023}. Historically, AMR has also appeared under various names in the literature—such as spontaneous magnetoresistance anisotropy (SMA)—though these are not always consistently defined throughout literature~\cite{Ritzinger:2023}. The above definition offers a general framework encompassing these different terminologies.
 
 We distinguish two commonly realized forms of AMR:
 
@@ -112,7 +112,7 @@ In this work, we explore how AMR can arise in the absence of SOC by focusing on 
 \begin{enumerate}
 	\item Spontaneous anisotropy due to magnetic ordering, as realized in the collinear antiferromagnet MnN. This effect is analyzed using \textit{ab initio} calculations.
 	\item Field-induced manipulation of magnetic order, studied in two settings: (i) idealized toy models (e.g., kagome and triangular lattices), and (ii) the realistic non-collinear antiferromagnet Mn$_3$Sn. These cases are modeled via tight-binding Hamiltonians and Boltzmann transport theory, assuming isotropic scattering within the relaxation time approximation (RTA).
-	\item Metal-insulator transition (MIT) in EuTe$_2$, which exhibits large AMR values (up to 40,000\%) when measured along different crystallographic directions under applied magnetic fields. This marks an extreme form of intrinsic AMR: unlike the warping-induced anisotropy discussed in Sections ~\ref{sec_I_Kagome} and \ref{sec_I_mat}, here the Fermi surface vanishes entirely in the insulating phase, leading to a dramatic conductivity anisotropy.
+	\item Metal-insulator transition (MIT) in EuTe$_2$, which exhibits large AMR values (up to 40,000\%) when measured along different crystallographic directions under applied magnetic fields. This marks an extreme form of intrinsic AMR: unlike the warping-induced anisotropy discussed in Sections~\ref{sec_I_Kagome} and \ref{sec_I_mat}, here the Fermi surface vanishes entirely in the insulating phase, leading to a dramatic conductivity anisotropy.
 \end{enumerate}
 	
 In all cases, we apply Neumann’s principle to identify which symmetries must be broken to generate AMR in the absence of SOC. \\}
@@ -307,7 +307,7 @@ Mn$_3$Sn which is a well-explored non-collinear antiferromagnet that, even
 if studied for more than 60 years~\cite{Cable:1993_a}  %PRB 48, 6159, ref. 6 !!
 has attracted considerable attention more recently~\cite{Manna:2018, Chen:2021, Nakatsuji:2015}.  Depending on exact stoichiometry (which
 needs to be tuned because of reasons related to proper crystal-growth),
-some Mn atoms can either be incorprorated into substitutional positions
+some Mn atoms can either be incorprorated into interstitial positions
 or substituted for Sn atoms~\cite{Gas:2025_a}.
 % is very important: see Kasia Gas et al. '25 % doi: 10.1063/5.0254918
 Hence, Mn$_3$Sn features 
@@ -337,7 +337,7 @@ In this section, we investigate the extrinsic (scattering-dependent) AMR. We wil
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{img/Kagome_impurity}
-	\caption{Illustration of unaligned magnetic impurities (black) in a kagome lattice. In Mn$_{3+x}$Sn$_{1-x}$, this could correspond to substitutional impurities.}
+	\caption{Illustration of unaligned magnetic impurities (black) in the matrix of a kagome lattice. In Mn$_{3+x}$Sn$_{1-x}$ (where only a fraction of $x$ Sn atoms is replaced by additional Mn) this could correspond to substitutional impurities.}
 	\label{fig:kagome21}
 \end{figure}
 
