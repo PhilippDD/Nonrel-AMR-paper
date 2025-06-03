@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.8.22)  3 JUN 2025 11:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2024.8.22)  3 JUN 2025 14:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -501,93 +501,93 @@ LaTeX Warning: A float is stuck (cannot be placed) on input line 270.
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<img/fig4_new.png, id=354, 900.0024pt x 437.7153pt>
-File: img/fig4_new.png Graphic file (type png)
-<use img/fig4_new.png>
-Package pdftex.def Info: img/fig4_new.png  used on input line 275.
-(pdftex.def)             Requested size: 246.0pt x 119.64072pt.
-<img/FS-rotation.jpg, id=363, 1177.39874pt x 679.53876pt>
+<img/fig4_new2.png, id=354, 900.0024pt x 450.2421pt>
+File: img/fig4_new2.png Graphic file (type png)
+<use img/fig4_new2.png>
+Package pdftex.def Info: img/fig4_new2.png  used on input line 275.
+(pdftex.def)             Requested size: 246.0pt x 123.06467pt.
+<img/FS-rotation.jpg, id=361, 1177.39874pt x 679.53876pt>
 File: img/FS-rotation.jpg Graphic file (type jpg)
 <use img/FS-rotation.jpg>
-Package pdftex.def Info: img/FS-rotation.jpg  used on input line 288.
+Package pdftex.def Info: img/FS-rotation.jpg  used on input line 286.
 (pdftex.def)             Requested size: 246.0pt x 141.97116pt.
 [5 <./img/kagome_triangular_11.jpg> <./img/overview_Kagome_phase1a.jpg>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 297.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 295.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 297.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 295.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 300.
+(hyperref)                removing `math shift' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 300.
+(hyperref)                removing `subscript' on input line 298.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 300.
+(hyperref)                removing `math shift' on input line 298.
 
-[6 <./img/kagome_rotation.jpg> <./img/fig4_new.png> <./img/FS-rotation.jpg>]
-Underfull \hbox (badness 1048) in paragraph at lines 326--327
+[6 <./img/kagome_rotation.jpg> <./img/fig4_new2.png> <./img/FS-rotation.jpg>]
+Underfull \hbox (badness 1048) in paragraph at lines 324--325
 \OT1/cmr/m/n/10 collinear AFM Mn$[]$Sn and showed that if the $60[]$
  []
 
-<img/Kagome_impurity.png, id=400, 1331.97626pt x 748.7975pt>
+<img/Kagome_impurity.png, id=398, 1331.97626pt x 748.7975pt>
 File: img/Kagome_impurity.png Graphic file (type png)
 <use img/Kagome_impurity.png>
-Package pdftex.def Info: img/Kagome_impurity.png  used on input line 338.
+Package pdftex.def Info: img/Kagome_impurity.png  used on input line 336.
 (pdftex.def)             Requested size: 246.0pt x 138.28542pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 344--345
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 
-<img/fig9.png, id=407, 947.4597pt x 417.7206pt>
+<img/fig9.png, id=405, 947.4597pt x 417.7206pt>
 File: img/fig9.png Graphic file (type png)
 <use img/fig9.png>
-Package pdftex.def Info: img/fig9.png  used on input line 374.
+Package pdftex.def Info: img/fig9.png  used on input line 372.
 (pdftex.def)             Requested size: 255.81754pt x 112.78606pt.
 
-Overfull \hbox (9.81754pt too wide) in paragraph at lines 374--375
+Overfull \hbox (9.81754pt too wide) in paragraph at lines 372--373
  [][] 
  []
 
 [7 <./img/Kagome_impurity.png> <./img/fig9.png>] [8]
-<img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png, id=441, 1234.6125pt x 62
+<img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png, id=439, 1234.6125pt x 62
 5.33624pt>
 File: img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png Graphic file (type p
 ng)
 <use img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png>
 Package pdftex.def Info: img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png  
-used on input line 443.
+used on input line 441.
 (pdftex.def)             Requested size: 246.0pt x 124.59747pt.
-<img/Combined_Spintexture.png, id=457, 542.025pt x 258.9675pt>
+<img/Combined_Spintexture.png, id=455, 542.025pt x 258.9675pt>
 File: img/Combined_Spintexture.png Graphic file (type png)
 <use img/Combined_Spintexture.png>
-Package pdftex.def Info: img/Combined_Spintexture.png  used on input line 476.
+Package pdftex.def Info: img/Combined_Spintexture.png  used on input line 474.
 (pdftex.def)             Requested size: 246.0pt x 117.53401pt.
  [9 <./img/Kagome_nns1_phase1a_dphi_0_band3_Ef1.0_nk100.png>]
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 482.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 480.
 
 
-LaTeX Warning: A float is stuck (cannot be placed) on input line 482.
+LaTeX Warning: A float is stuck (cannot be placed) on input line 480.
 
 
 Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
 
-<img/Mn3Sn_nns20_rot36_band15_Ef15_nk100.png, id=472, 1250.6725pt x 624.3325pt>
+<img/Mn3Sn_nns20_rot36_band15_Ef15_nk100.png, id=470, 1250.6725pt x 624.3325pt>
 
 File: img/Mn3Sn_nns20_rot36_band15_Ef15_nk100.png Graphic file (type png)
 <use img/Mn3Sn_nns20_rot36_band15_Ef15_nk100.png>
 Package pdftex.def Info: img/Mn3Sn_nns20_rot36_band15_Ef15_nk100.png  used on i
-nput line 485.
+nput line 483.
 (pdftex.def)             Requested size: 246.0pt x 122.79703pt.
 (./nct-paper_new.bbl
 
@@ -595,28 +595,28 @@ Package natbib Warning: Empty `thebibliography' environment on input line 53.
 
 ) [10 <./img/Combined_Spintexture.png (PNG copy)> <./img/Mn3Sn_nns20_rot36_band
 15_Ef15_nk100.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 576--577
+Underfull \hbox (badness 10000) in paragraph at lines 574--575
  []\OT1/cmr/m/n/9 Dunz et al. MnN, DOI: 10.1103/Phys-RevRe-
  []
 
 
-Overfull \hbox (28.27463pt too wide) in paragraph at lines 594--595
+Overfull \hbox (28.27463pt too wide) in paragraph at lines 592--593
  []\OT1/cmtt/m/n/9 https://www.cryst.ehu.es/magndata/index.php?index=0.199\OT1/
 cmr/m/n/9 ,
  []
 
 (./nct-paper_new.bbl) [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 636.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 634.
  (./nct-paper_new.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 636.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 636.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 634.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 634.
 Package rerunfilecheck Info: File `nct-paper_new.out' has not changed.
 (rerunfilecheck)             Checksum: 9C0554A8A093D4270F2E136DF5B91C8A;1561.
  ) 
 Here is how much of TeX's memory you used:
  8642 strings out of 483183
- 125600 string characters out of 5966292
- 443053 words of memory out of 5000000
+ 125608 string characters out of 5966292
+ 443018 words of memory out of 5000000
  23381 multiletter control sequences out of 15000+600000
  542026 words of font info for 60 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -645,10 +645,10 @@ sfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 t9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10
 .pfb>
-Output written on nct-paper_new.pdf (11 pages, 1371042 bytes).
+Output written on nct-paper_new.pdf (11 pages, 1420870 bytes).
 PDF statistics:
- 597 PDF objects out of 1000 (max. 8388607)
- 504 compressed objects within 6 object streams
+ 595 PDF objects out of 1000 (max. 8388607)
+ 503 compressed objects within 6 object streams
  118 named destinations out of 1000 (max. 500000)
  240 words of extra memory for PDF output out of 10000 (max. 10000000)
 
