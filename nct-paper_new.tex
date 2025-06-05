@@ -40,7 +40,7 @@
 Cukrovarnick\'a 10, CZ-16253 Praha 6, Czech Republic}
 
 
-\date{Jun03, 2025}
+\date{Jun04, 2025}
 
 \begin{abstract}
 Anisotropic magnetoresistance (AMR) is a manifestation of
@@ -72,16 +72,15 @@ The conventional understanding of AMR~\cite{Vitayaya:2024}, in line with Eq.~\re
 
 More generally, AMR can be defined as the change in symmetry of the conductivity tensor $\sigma_{ij}$ due to magnetic ordering. This includes the standard formulation in Eq.~\ref{eq_ncollAMR}, but excludes anisotropy of orbital (induced merely by Lorentz force) magnetoresistance in non-magnetic systems, or surface states in topological insulators~\cite{Ritzinger:2023}. Historically, AMR has also appeared under various names in the literature—such as spontaneous magnetoresistance anisotropy (SMA)—though these are not always consistently defined throughout literature~\cite{Ritzinger:2023}. The above definition offers a general framework encompassing these different terminologies.
 
-We distinguish two commonly realized forms of AMR:
+We distinguish two ways of how AMR is commonly {\color{red}understood/measured --- not sure, what's better to say}:
 
 \begin{enumerate}
-	\item \textit{Rotation of magnetic order:} This is the most widely used experimental approach. AMR is measured while the magnetic order is rotated via an applied magnetic field. Such studies often focus on systems with collinear magnetic order, including FMs, antiferromagnets (AFMs) like MnTe~\cite{Kriegner:2017, Gonzalez-Betancourt:2024} and CuMnAs~\cite{Volny:2020, Zubac:2021, Wadley:2016}, or ferrimagnets such as Mn$_4$N~\cite{Kabara:2017}. These systems are characterized by a single spin axis (SSA), either the magnetization $\vec{M}$ or the N\'eel vector $\vec{L}$. Let $\varphi_1 \neq \varphi_2 \pm n\pi$ be two different orientations of the SSA, then AMR is present if $\sigma_{ii}(\varphi_1) \neq \sigma_{ii}(\varphi_2)$ for some direction $i$. This mechanism necessarily requires SOC and is thus relativistic.
+	\item \textit{Rotation of magnetic order:} This is the most widely used experimental approach. In single-MSL ferromagnets (such as iron, cobalt, nickel and their alloys), AMR can be easily measured while the magnetic order is rotated using an applied magnetic field. This approach is applied also in other systems with collinear magnetic order, such as antiferromagnets (AFMs) like MnTe~\cite{Kriegner:2017, Gonzalez-Betancourt:2024} and CuMnAs~\cite{Volny:2020, Zubac:2021, Wadley:2016}, or ferrimagnets such as Mn$_4$N~\cite{Kabara:2017}. These systems are characterized by a single spin axis (SSA), either the magnetization $\vec{M}$ or the N\'eel vector $\vec{L}$. Let $\varphi_1 \neq \varphi_2 \pm n\pi$ be two different orientations of the SSA, then AMR is present if $\sigma_{ii}(\varphi_1) \neq \sigma_{ii}(\varphi_2)$ for some direction $i$. This mechanism necessarily requires SOC and is thus relativistic.
 	
 	\item \textit{Measurement of conductivity along different directions:} AMR can also arise when the conductivity is measured along two perpendicular directions for a fixed magnetic configuration $\varphi$. For instance, $\sigma_{xx}(\varphi) \neq \sigma_{yy}(\varphi)$. This anisotropy can either be a spontaneous effect~\cite{Bakonyi:2022} or induced by external manipulation of the magnetic configuration. In simple FMs with a single MSL, in the absence of SOC, no such anisotropy is induced under global spin rotation, since spin and lattice are decoupled~\cite{Gonzalez-Hernandez:2024}. However, in systems with multiple MSLs, even without SOC, magnetic ordering can break crystal symmetries and lead to anisotropic conductivity. This fact is illustrated in Fig.~\ref{fig:mnnsketch}
 \end{enumerate}
 
-{\color{blue} 
-Both definitions of AMR introduced above can often be equivalent, especially in simple systems. Consider, for example, a FM with SOC on a square lattice. The anisotropy in the conductivity tensor $\sigma_{ij}$ can be illustrated by comparing its diagonal elements for two configurations of the external magnetic field, aligned along $\hat{x}$ and $\hat{y}$:
+Both definitions of AMR introduced above are often equivalent, depending on which system they are applied to. Consider, for example, a FM with SOC on a square lattice. The anisotropy in the conductivity tensor $\sigma_{ij}$ can be illustrated by comparing its diagonal elements for two configurations of the external magnetic field, aligned along $\hat{x}$ and $\hat{y}$:
 
 \begin{equation}
 	\sigma(H \parallel x) =
@@ -96,19 +95,21 @@ Both definitions of AMR introduced above can often be equivalent, especially in 
 		0 & s
 	\end{pmatrix}
 \end{equation}
-
-Here, the anisotropic magnetoresistance (AMR) can be expressed in two seemingly different, but mathematically equivalent ways. It holds for case 1:
+%
+Here, the AMR can be expressed in two seemingly different, but mathematically equivalent ways. It holds for case 1:
 \[
-\text{AMR} = \frac{\sigma_{xx}(H \parallel x) - \sigma_{xx}(H \parallel y)}{\sigma_{xx}(H \parallel x)} = \frac{s - s'}{s}.
+\text{AMR} = \frac{\sigma_{xx}(H \parallel x) - \sigma_{xx}(H \parallel y)}{\sigma_{xx}(H \parallel x)} = \frac{s - s'}{s},
 \]
-While in case 2 it holds:
+while in case 2 it holds:
 \[
 \text{AMR} = \frac{\sigma_{xx}(H \parallel x) - \sigma_{yy}(H \parallel x)}{\sigma_{xx}(H \parallel x)} = \frac{s - s'}{s}.
 \]
+%
+Thus, in such symmetric settings, both approaches yield the same AMR value. However, in systems with multiple MSLs and in the absence of SOC, the situation is more subtle: Real space and spin space are decoupled, and thus pure spin rotations are symmetry operations of non-magnetic crystals. Hence, global spin rotations do not alter the symmetry of the conductivity tensor. As such, case (1) — \textit{rotation of magnetic order} — in its conventional sense of rigid spin rotation is not considered here. Instead, the magnetic configurations studied in this work fall under case (2), where anisotropic conductivity emerges from measurements along different directions for a fixed magnetic structure.
 
-Thus, in such symmetric settings, both approaches yield the same AMR value. However, in systems with multiple magnetic sublattices (MSLs) and in the absence of SOC, the situation is more subtle:} Real space and spin space are decoupled, and thus pure spin rotations are symmetry operations of non-magnetic crystals. Hence, global spin rotations do not alter the symmetry of the conductivity tensor. As such, case (1) — \textit{rotation of magnetic order} — in its conventional sense of rigid spin rotation is not considered here. Instead, the magnetic configurations studied in this work fall under case (2), where anisotropic conductivity emerges from measurements along different directions for a fixed magnetic structure.
-
-{\color{blue} Furthermore, the planar Hall effect (PHE), which corresponds to the off-diagonal components of the conductivity tensor, can be seen as the transverse counterpart to AMR, arising from the same symmetry-breaking mechanisms.} This connection becomes evident when comparing Eqs. 1.2 and 1.4 in Ref.~\cite{Ritzinger:2023}.
+Furthermore, the planar Hall effect (PHE), which corresponds to the off-diagonal components of the conductivity tensor, can be seen as the transverse counterpart to 'longitudinal AMR', arising from the same symmetry-breaking mechanisms. This connection becomes evident when comparing Eqs. 1.2 and 1.4 in Ref.~\cite{Ritzinger:2023}.
+{\color{red}Hence, the AMR can be found both in longitudinal and transversal 
+setting, the latter being called the PHE.}
 
 
 \subsection{Categories of AMR}
